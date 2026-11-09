@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Server Offline — Balaji Connect</title>
+    <link rel="stylesheet" href="/static/css/styles.css?v=2.5">
+    <style>
+        .offline-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-page, #f0f2f5);
+            padding: 1.5rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        .offline-card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            padding: 2.5rem 2rem;
+            max-width: 440px;
+            width: 100%;
+            text-align: center;
+        }
+        .offline-logo {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.25rem;
+            border: 2px solid var(--border-light, #e4e6eb);
+        }
+        .offline-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #1c1e21;
+            margin: 0 0 0.5rem;
+        }
+        .offline-desc {
+            font-size: 0.95rem;
+            color: #65676b;
+            line-height: 1.5;
+            margin: 0 0 1.75rem;
+        }
+        .offline-status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0.35rem 0.85rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            background: #fff3cd;
+            color: #856404;
+            margin-bottom: 1.5rem;
+        }
+        .status-dot-pulse {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #e0a800;
+            animation: pulse-dot 1.5s infinite;
+        }
+        @keyframes pulse-dot {
+            0% { transform: scale(0.95); opacity: 0.7; }
+            50% { transform: scale(1.3); opacity: 1; }
+            100% { transform: scale(0.95); opacity: 0.7; }
+        }
+        .btn-retry {
+            background-color: #1877f2;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: background 0.2s ease;
+        }
+        .btn-retry:hover {
+            background-color: #166fe5;
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-container">
+        <div class="offline-card">
+            <img src="/static/images/balaji_logo.jpg" alt="Balaji Transports" class="offline-logo">
+            
+            <div class="offline-status-badge">
+                <span class="status-dot-pulse"></span>
+                <span>Company Server Offline</span>
+            </div>
+
+            <h1 class="offline-title">Server Temporarily Unreachable</h1>
+            <p class="offline-desc">
+                The Balaji Connect local company server is currently offline or undergoing maintenance. Your app is safely installed and will reconnect automatically once the server is back online.
+            </p>
+
+            <button type="button" class="btn-retry" onclick="retryConnection()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="23 4 23 10 17 10"></polyline>
+                    <polyline points="1 20 1 14 7 14"></polyline>
+                    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                </svg>
+                <span>Retry Connection</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function retryConnection() {
+            const btn = document.querySelector('.btn-retry span');
+            if (btn) btn.innerText = 'Checking server...';
+            setTimeout(() => {
+                window.location.href = '/';
+            }, 600);
+        }
+
+        // Auto-reconnect when device detects network restored
+        window.addEventListener('online', () => {
+            window.location.href = '/';
+        });
+
+        // Periodic retry every 15 seconds
+        setInterval(() => {
+            fetch('/', { method: 'HEAD', cache: 'no-cache' })
+                .then(res => {
+                    if (res.ok) window.location.href = '/';
+                })
+                .catch(() => {});
+        }, 15000);
+    </script>
+</body>
+</html>
+

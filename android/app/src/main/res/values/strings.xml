@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Balaji Connect</string>
+    <string name="company_name">Balaji Transports</string>
+    <string name="login_title">Employee Sign In</string>
+    <string name="login_subtitle">Private Corporate Social Network</string>
+    <string name="employee_id_hint">Employee ID (e.g. BT-1001)</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="company_feed">Company Feed</string>
+    <string name="post_hint">Share an update or milestone...</string>
+    <string name="publish">Publish</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+</resources>
+

@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>{% block title %}Balaji Connect — Employee Network{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css?v=3.9">
+    
+    <!-- PWA Manifest & App Metas -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#1877f2">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Balaji Connect">
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/images/icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/icons/icon-32.png">
+    <link rel="apple-touch-icon" href="/static/images/icons/apple-touch-icon.png">
+    
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <!-- Top App Header -->
+    <header class="top-app-header">
+        <div class="header-inner">
+            <!-- Brand Wordmark -->
+            <a href="/" class="brand-wordmark" id="brand-logo-link" title="Balaji Connect Home">
+                <img src="/static/images/balaji_logo.jpg" alt="Balaji Transports" class="brand-logo-img">
+                <div class="brand-text-block">
+                    <span class="brand-name">Balaji Connect</span>
+                    <span class="brand-corp">Balaji Transports</span>
+                </div>
+            </a>
+
+            <!-- Search Bar (Desktop) -->
+            <div class="header-search-wrap">
+                <span class="header-search-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </span>
+                <input 
+                    type="text" 
+                    class="header-search-input" 
+                    id="header-search-input" 
+                    placeholder="Search by username..." 
+                    aria-label="Search by username"
+                >
+            </div>
+
+            <!-- Header Action Icons -->
+            <div class="header-action-group">
+                <button class="icon-circle-btn" id="btn-quick-search" title="Search Users" aria-label="Search Users">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+
+                <button class="icon-circle-btn" id="btn-header-messages" title="Direct Messages" aria-label="Direct Messages">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span class="badge-counter" id="header-messages-badge" style="display:none;">0</span>
+                </button>
+
+                <button class="icon-circle-btn" id="btn-header-notifs" title="Notifications" aria-label="Notifications">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                    </svg>
+                    <span class="badge-counter" id="header-notif-badge" style="display:none;">0</span>
+                </button>
+
+                <button class="icon-circle-btn admin-only" id="btn-header-admin" title="Admin Moderation" aria-label="Admin Moderation" style="display:none;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                </button>
+
+                <button class="avatar-round avatar-sm user-avatar-placeholder" id="btn-header-profile" title="Account Menu" aria-label="Account Menu" aria-haspopup="true" aria-expanded="false" style="cursor:pointer; border:none;">
+                    B
+                </button>
+            </div>
+        </div>
+
+        <!-- Navigation Tabs (Facebook Mobile Pattern) -->
+        <nav class="nav-tabs-bar" aria-label="Main Navigation">
+            <div class="nav-tabs-inner">
+                <a href="#feed" class="nav-tab-item active" id="tab-nav-feed" title="Home Feed" aria-label="Home Feed">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                    </svg>
+                </a>
+
+                <a href="#messages" class="nav-tab-item" id="tab-nav-messages" title="Direct Messages" aria-label="Direct Messages">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span class="nav-tab-badge" id="tab-messages-badge" style="display:none;">0</span>
+                </a>
+
+                <a href="#notifications" class="nav-tab-item" id="tab-nav-notifs" title="Notifications" aria-label="Notifications">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                    </svg>
+                    <span class="nav-tab-badge" id="tab-notif-badge" style="display:none;">0</span>
+                </a>
+
+                <a href="#admin" class="nav-tab-item admin-only" id="tab-nav-admin" title="Admin Dashboard" aria-label="Admin Dashboard" style="display:none;">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                </a>
+
+                <a href="#menu" class="nav-tab-item" id="tab-nav-profile" title="Account Menu" aria-label="Account Menu" aria-haspopup="true" aria-expanded="false">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Account Options Dropdown / Toggle Menu -->
+        <div class="account-menu-dropdown" id="account-toggle-menu" role="menu" aria-label="Account Options" style="display:none;">
+            <div class="account-menu-header">
+                <div class="avatar-round avatar-md user-avatar-placeholder" id="account-menu-avatar" style="width:40px; height:40px; min-width:40px; font-size:1.1rem;">B</div>
+                <div class="account-menu-user-info">
+                    <span class="account-menu-name user-full-name">Employee</span>
+                </div>
+            </div>
+
+            <div class="account-menu-divider"></div>
+
+            <div class="account-menu-items">
+                <!-- View Profile Option -->
+                <button type="button" class="account-menu-btn" id="menu-opt-view-profile" role="menuitem">
+                    <div class="account-menu-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <div class="account-menu-text">
+                        <span class="account-menu-title">My Profile</span>
+                        <span class="account-menu-desc">View your posts and comments</span>
+                    </div>
+                </button>
+
+                <!-- Edit Profile Option -->
+                <button type="button" class="account-menu-btn" id="menu-opt-edit-profile" role="menuitem">
+                    <div class="account-menu-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                    </div>
+                    <div class="account-menu-text">
+                        <span class="account-menu-title">Edit Profile</span>
+                        <span class="account-menu-desc">Display name, photo, birth date</span>
+                    </div>
+                </button>
+
+                <!-- Change Password Option -->
+                <button type="button" class="account-menu-btn" id="menu-opt-change-pw" role="menuitem">
+                    <div class="account-menu-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <div class="account-menu-text">
+                        <span class="account-menu-title">Change Password</span>
+                        <span class="account-menu-desc">Update security credentials</span>
+                    </div>
+                </button>
+
+                <!-- Admin Dashboard (if admin) -->
+                <button type="button" class="account-menu-btn admin-only" id="menu-opt-admin" role="menuitem" style="display:none;">
+                    <div class="account-menu-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <div class="account-menu-text">
+                        <span class="account-menu-title">Admin Moderation</span>
+                        <span class="account-menu-desc">Review flagged posts & reports</span>
+                    </div>
+                </button>
+
+                <!-- Install App Option (PWA) -->
+                <button type="button" class="account-menu-btn" id="btn-pwa-install" role="menuitem" style="display:none;">
+                    <div class="account-menu-icon-box" style="background:rgba(24,119,242,0.12); color:var(--primary);">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </div>
+                    <div class="account-menu-text">
+                        <span class="account-menu-title" style="color:var(--primary); font-weight:700;">Install App</span>
+                        <span class="account-menu-desc">Add Balaji Connect to Home Screen</span>
+                    </div>
+                </button>
+            </div>
+
+            <div class="account-menu-divider"></div>
+
+            <!-- Sign Out Option -->
+            <div class="account-menu-footer">
+                <button type="button" class="account-menu-btn account-menu-logout-btn" id="menu-opt-logout" role="menuitem">
+                    <div class="account-menu-icon-box account-menu-icon-danger">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                            <polyline points="16 17 21 12 16 7"></polyline>
+                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                        </svg>
+                    </div>
+                    <div class="account-menu-text">
+                        <span class="account-menu-title" style="color:var(--danger);">Sign Out</span>
+                        <span class="account-menu-desc">End session on this device</span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <!-- Post Composer Modal (Facebook Pattern) -->
+    <div class="modal-backdrop" id="composer-modal" role="dialog" aria-modal="true" aria-labelledby="composer-modal-title">
+        <div class="modal-dialog">
+            <div class="modal-dialog-header">
+                <h3 id="composer-modal-title">Create Post</h3>
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <button type="button" class="btn btn-primary" id="btn-modal-header-publish" style="font-weight:700; border-radius:var(--radius-pill); padding:0.35rem 0.95rem; font-size:0.85rem; min-height:34px;">
+                        Post
+                    </button>
+                    <button class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+                </div>
+            </div>
+            <div class="modal-dialog-body">
+                <div class="composer-author-row" style="margin-bottom:0.75rem;">
+                    <div class="avatar-round avatar-sm user-avatar-placeholder">B</div>
+                    <div>
+                        <div class="user-full-name" style="font-weight:700; font-size:0.95rem;">Employee</div>
+                    </div>
+                </div>
+
+                <textarea 
+                    id="modal-post-textarea" 
+                    class="composer-textarea" 
+                    placeholder="Share an operational update, memory, or milestone..."
+                    rows="4"
+                    aria-label="Post content"
+                ></textarea>
+
+                <!-- Media Preview Area -->
+                <div class="media-preview-box" id="composer-media-preview">
+                    <button type="button" class="btn-remove-preview" id="modal-remove-media-btn" title="Remove attachment">✕</button>
+                    <div id="modal-preview-content"></div>
+                </div>
+
+                <!-- Add to post toolbar -->
+                <div style="border:1px solid var(--border-light); border-radius:var(--radius-md); padding:0.6rem 0.75rem; display:flex; align-items:center; justify-content:space-between; margin-top:0.75rem;">
+                    <span style="font-size:0.85rem; font-weight:600; color:var(--text-secondary);">Add to your post</span>
+                    <label style="cursor:pointer; display:flex; align-items:center; gap:0.4rem; color:var(--success); font-weight:600; font-size:0.85rem; padding:0.35rem 0.5rem; border-radius:var(--radius-sm); background:var(--bg-hover);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span>Photo/Video</span>
+                        <input type="file" id="modal-media-file-input" accept="image/jpeg,image/png,image/webp,video/mp4,video/webm" style="display:none;">
+                    </label>
+                </div>
+            </div>
+            <div class="modal-dialog-footer">
+                <button type="button" class="btn btn-primary" id="btn-modal-publish-post" style="width:100%;">
+                    Post
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Search Modal -->
+    <div class="modal-backdrop" id="directory-modal" role="dialog" aria-modal="true" aria-labelledby="directory-modal-title">
+        <div class="modal-dialog">
+            <div class="modal-dialog-header">
+                <h3 id="directory-modal-title">Search</h3>
+                <button class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+            </div>
+            <div class="modal-dialog-body">
+                <div class="form-group">
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        id="directory-search-input" 
+                        placeholder="Search by username..."
+                        style="border-radius:var(--radius-pill); background-color:var(--bg-input);"
+                    >
+                </div>
+                <div id="directory-results-list" style="max-height:420px; overflow-y:auto; display:flex; flex-direction:column; gap:0.5rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notifications Drawer / Modal -->
+    <div class="modal-backdrop" id="notifications-modal" role="dialog" aria-modal="true" aria-labelledby="notifications-modal-title">
+        <div class="modal-dialog">
+            <div class="modal-dialog-header">
+                <h3 id="notifications-modal-title">Notifications</h3>
+                <div style="display:flex; gap:0.4rem; align-items:center;">
+                    <button class="btn btn-secondary" id="btn-mark-all-read" style="min-height:32px; padding:0.2rem 0.6rem; font-size:0.75rem;">Mark all read</button>
+                    <button class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+                </div>
+            </div>
+            <div class="modal-dialog-body" style="padding:0.5rem;">
+                <div id="notifications-stream-list" style="max-height:440px; overflow-y:auto; display:flex; flex-direction:column; gap:0.35rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Profile & Menu Modal -->
+    <div class="modal-backdrop" id="profile-menu-modal" role="dialog" aria-modal="true" aria-labelledby="profile-menu-modal-title">
+        <div class="modal-dialog">
+            <div class="modal-dialog-header">
+                <h3 id="profile-menu-modal-title">My Employee Profile</h3>
+                <button class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+            </div>
+            <div class="modal-dialog-body">
+                <div style="display:flex; flex-direction:column; align-items:center; text-align:center; padding:1rem 0; border-bottom:1px solid var(--border-light);">
+                    <div class="avatar-round avatar-lg user-avatar-placeholder" style="margin-bottom:0.75rem;">B</div>
+                    <h3 class="user-full-name" style="font-size:1.2rem;">Employee Name</h3>
+                    <p class="user-flyout-bio" id="user-flyout-bio" style="font-size:0.875rem; color:var(--text-secondary); margin:0.35rem 0 0.5rem; max-width:280px; display:none; line-height:1.4;"></p>
+                </div>
+
+                <!-- Account Security & Change Password -->
+                <div style="margin-top:1rem;">
+                    <h4 style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:0.5rem; text-transform:uppercase; letter-spacing:0.05em;">Security</h4>
+                    <button class="sidebar-menu-btn" id="btn-open-change-pw">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                        <span>Change Password</span>
+                    </button>
+                </div>
+
+                <div style="margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border-light);">
+                    <button class="btn btn-secondary" id="btn-profile-view-full" style="width:100%; min-height:44px; margin-bottom:0.5rem;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <span>View Full Profile & Activity</span>
+                    </button>
+                    <button class="btn btn-danger" id="btn-profile-logout" style="width:100%; min-height:44px;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                            <polyline points="16 17 21 12 16 7"></polyline>
+                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                        </svg>
+                        <span>Sign Out of Balaji Connect</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Employee Profile Modal -->
+    <div class="modal-backdrop" id="edit-profile-modal" role="dialog" aria-modal="true" aria-labelledby="edit-profile-modal-title">
+        <div class="modal-dialog">
+            <form id="edit-profile-form">
+                <div class="modal-dialog-header">
+                    <h3 id="edit-profile-modal-title">Edit Profile</h3>
+                    <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+                </div>
+                <div class="modal-dialog-body">
+                    <!-- Profile Picture Section -->
+                    <div class="edit-avatar-preview-wrap">
+                        <div class="edit-avatar-preview user-avatar-placeholder" id="edit-avatar-preview-box">B</div>
+                        <div style="flex:1;">
+                            <label class="form-label" style="margin-bottom:0.25rem;">Profile Picture</label>
+                            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                                <label class="btn btn-secondary" style="font-size:0.775rem; padding:0.35rem 0.65rem; cursor:pointer;">
+                                    <span>Upload Photo</span>
+                                    <input type="file" id="edit-avatar-file-input" accept="image/jpeg,image/png,image/webp" style="display:none;">
+                                </label>
+                                <button type="button" class="btn btn-secondary" id="btn-remove-avatar" style="font-size:0.775rem; padding:0.35rem 0.65rem; color:var(--danger);">
+                                    Remove Photo
+                                </button>
+                            </div>
+                            <small style="color:var(--text-muted); font-size:0.75rem; display:block; margin-top:0.25rem;">JPEG, PNG, WEBP up to 5MB</small>
+                        </div>
+                    </div>
+
+                    <!-- Display Name -->
+                    <div class="form-group">
+                        <label class="form-label" for="edit-display-name">Display Name</label>
+                        <input type="text" id="edit-display-name" class="form-control" placeholder="Your preferred name or title" maxlength="150">
+                        <small style="color:var(--text-muted); font-size:0.75rem;">Shown publicly across company posts and comments.</small>
+                    </div>
+
+                    <!-- Bio -->
+                    <div class="form-group">
+                        <label class="form-label" for="edit-bio">Bio (Optional, max 250 characters)</label>
+                        <textarea id="edit-bio" class="form-control" rows="2" maxlength="250" placeholder="A short bio describing yourself, your work, or interests..."></textarea>
+                        <small style="color:var(--text-muted); font-size:0.75rem;">Displayed on your employee profile.</small>
+                    </div>
+
+                    <!-- Date of Birth -->
+                    <div class="form-group">
+                        <label class="form-label" for="edit-date-of-birth">Date of Birth (Optional)</label>
+                        <input type="date" id="edit-date-of-birth" class="form-control">
+                        <small style="color:var(--text-muted); font-size:0.75rem;">🔒 Private: Your birth year is NEVER exposed to colleagues. Only month & day are used for team birthday greetings.</small>
+                    </div>
+
+                    <!-- Phone Number -->
+                    <div class="form-group">
+                        <label class="form-label" for="edit-phone-number">Contact Phone (Optional)</label>
+                        <input type="tel" id="edit-phone-number" class="form-control" placeholder="+91 XXXXX XXXXX">
+                    </div>
+
+                    <div style="margin-top:1rem; padding:0.75rem; background:var(--bg-page); border-radius:var(--radius-md); font-size:0.8rem; color:var(--text-secondary);">
+                        <small style="display:block; color:var(--text-muted); font-size:0.75rem;">🔒 Official company profile and employee account credentials.</small>
+                    </div>
+                </div>
+                <div class="modal-dialog-footer">
+                    <button type="button" class="btn btn-secondary modal-close-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="btn-save-profile">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Password Change Modal -->
+    <div class="modal-backdrop" id="change-pw-modal" role="dialog" aria-modal="true" aria-labelledby="change-pw-modal-title">
+        <div class="modal-dialog">
+            <form id="change-pw-form">
+                <div class="modal-dialog-header">
+                    <h3 id="change-pw-modal-title">Change Password</h3>
+                    <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+                </div>
+                <div class="modal-dialog-body">
+                    <div class="form-group">
+                        <label class="form-label" for="pw-current">Current Password</label>
+                        <div class="password-input-wrap">
+                            <input type="password" id="pw-current" class="form-control" required autocomplete="current-password">
+                            <button type="button" class="btn-toggle-password" data-target="pw-current" aria-label="Toggle password visibility" title="Show/Hide password">
+                                <svg class="eye-icon eye-show" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <svg class="eye-icon eye-hide" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                                    <line x1="1" y1="1" x2="23" y2="23"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="pw-new">New Password (min 8 characters)</label>
+                        <div class="password-input-wrap">
+                            <input type="password" id="pw-new" class="form-control" required minlength="8" autocomplete="new-password">
+                            <button type="button" class="btn-toggle-password" data-target="pw-new" aria-label="Toggle password visibility" title="Show/Hide password">
+                                <svg class="eye-icon eye-show" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <svg class="eye-icon eye-hide" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                                    <line x1="1" y1="1" x2="23" y2="23"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="pw-confirm">Confirm New Password</label>
+                        <div class="password-input-wrap">
+                            <input type="password" id="pw-confirm" class="form-control" required minlength="8" autocomplete="new-password">
+                            <button type="button" class="btn-toggle-password" data-target="pw-confirm" aria-label="Toggle password visibility" title="Show/Hide password">
+                                <svg class="eye-icon eye-show" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <svg class="eye-icon eye-hide" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                                    <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                                    <line x1="1" y1="1" x2="23" y2="23"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-dialog-footer">
+                    <button type="button" class="btn btn-secondary modal-close-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Update Password</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Content Report Modal -->
+    <div class="modal-backdrop" id="report-modal" role="dialog" aria-modal="true" aria-labelledby="report-modal-title">
+        <div class="modal-dialog">
+            <form id="report-form">
+                <div class="modal-dialog-header">
+                    <h3 id="report-modal-title">Report Content</h3>
+                    <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+                </div>
+                <div class="modal-dialog-body">
+                    <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:1rem;">
+                        Help maintain a professional and safe environment for all Balaji Transports employees.
+                    </p>
+                    <div class="form-group">
+                        <label class="form-label" for="report-reason">Reason for reporting</label>
+                        <select class="form-control" id="report-reason" required>
+                            <option value="INAPPROPRIATE">Inappropriate or offensive content</option>
+                            <option value="HARASSMENT">Harassment or bullying</option>
+                            <option value="CONFIDENTIAL">Breach of company confidentiality</option>
+                            <option value="SPAM">Spam or unauthorized advertising</option>
+                            <option value="OTHER">Other policy violation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="report-description">Additional Context (Optional)</label>
+                        <textarea class="form-control" id="report-description" rows="3" placeholder="Provide extra details for administrator review..."></textarea>
+                    </div>
+                </div>
+                <div class="modal-dialog-footer">
+                    <button type="button" class="btn btn-secondary modal-close-btn">Cancel</button>
+                    <button type="submit" class="btn btn-danger">Submit Report</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Admin Moderation & Audit Modal -->
+    <div class="modal-backdrop" id="admin-modal" role="dialog" aria-modal="true" aria-labelledby="admin-modal-title">
+        <div class="modal-dialog" style="max-width:680px;">
+            <div class="modal-dialog-header" style="border-bottom: 1px solid var(--border-light); padding: 0.85rem 1.25rem;">
+                <h3 id="admin-modal-title" style="font-size: 1.1rem; font-weight: 700;">Admin Moderation & Archive</h3>
+                <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+            </div>
+            <!-- Sub-navigation tabs -->
+            <div class="admin-modal-tabs" style="display:flex; border-bottom:1px solid var(--border-light); background:var(--bg-input);">
+                <button type="button" id="tab-btn-admin-reports" class="admin-tab-btn active" style="flex:1; padding:0.75rem 1rem; border:none; background:transparent; font-weight:700; font-size:0.875rem; color:var(--primary); border-bottom:2px solid var(--primary); cursor:pointer; display:flex; align-items:center; justify-content:center; gap:0.4rem;">
+                    <span>⚠️ Pending Reports</span>
+                    <span id="badge-admin-reports-count" class="badge-count" style="display:none; background:var(--danger); color:#fff; font-size:0.7rem; padding:1px 6px; border-radius:10px;">0</span>
+                </button>
+                <button type="button" id="tab-btn-admin-archived" class="admin-tab-btn" style="flex:1; padding:0.75rem 1rem; border:none; background:transparent; font-weight:600; font-size:0.875rem; color:var(--text-secondary); cursor:pointer; display:flex; align-items:center; justify-content:center; gap:0.4rem;">
+                    <span>📦 Archived Posts</span>
+                    <span id="badge-admin-archived-count" class="badge-count" style="display:none; background:var(--text-muted); color:#fff; font-size:0.7rem; padding:1px 6px; border-radius:10px;">0</span>
+                </button>
+            </div>
+            <div class="modal-dialog-body" style="padding:1rem;">
+                <!-- Panel 1: Moderation Reports -->
+                <div id="admin-panel-reports" class="admin-panel active">
+                    <div id="admin-reports-list" style="max-height:480px; overflow-y:auto; display:flex; flex-direction:column; gap:0.75rem;"></div>
+                </div>
+                <!-- Panel 2: Archived Posts -->
+                <div id="admin-panel-archived" class="admin-panel" style="display:none;">
+                    <div id="admin-archived-list" style="max-height:480px; overflow-y:auto; display:flex; flex-direction:column; gap:0.75rem;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Post to DM Modal (Instagram-style) -->
+    <div class="modal-backdrop" id="share-modal" role="dialog" aria-modal="true" aria-labelledby="share-modal-title">
+        <div class="modal-dialog" style="max-width: 480px;">
+            <div class="modal-dialog-header" style="border-bottom: 1px solid var(--border-light); padding: 0.75rem 1rem;">
+                <h3 id="share-modal-title" style="font-size: 1.05rem; font-weight: 700;">Share Post</h3>
+                <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+            </div>
+            <div class="modal-dialog-body" style="padding: 0.85rem 1rem;">
+                <!-- Colleague Search Bar -->
+                <div style="position:relative; margin-bottom:0.75rem;">
+                    <div style="position:absolute; left:12px; top:50%; transform:translateY(-50%); color:var(--text-muted); pointer-events:none; display:flex;">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </div>
+                    <input type="text" id="share-search-input" class="form-control" placeholder="Search by name or username..." style="padding-left:2.2rem; font-size:0.875rem; border-radius:var(--radius-pill); background:var(--bg-input);">
+                </div>
+
+                <!-- Post Summary Preview -->
+                <div class="share-post-summary-card" id="share-post-summary" style="margin-bottom:0.75rem; padding:0.6rem 0.75rem; border-radius:var(--radius-md); background:var(--bg-input); border:1px solid var(--border-light);">
+                    <div style="display:flex; align-items:center; gap:0.4rem; margin-bottom:0.25rem;">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2.5">
+                            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                            <polyline points="16 6 12 2 8 6"></polyline>
+                            <line x1="12" y1="2" x2="12" y2="15"></line>
+                        </svg>
+                        <span id="share-post-author-name" style="font-weight:700; font-size:0.82rem; color:var(--text-primary);">Original Author</span>
+                    </div>
+                    <div id="share-post-snippet" style="font-size:0.8rem; color:var(--text-secondary); line-height:1.3; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;"></div>
+                </div>
+
+                <!-- Recipient Selection Header -->
+                <div style="font-size:0.75rem; font-weight:700; text-transform:uppercase; color:var(--text-muted); margin-bottom:0.45rem; display:flex; justify-content:space-between; align-items:center; letter-spacing:0.03em;">
+                    <span>Colleagues</span>
+                    <span id="share-selected-count" style="color:var(--primary); font-weight:700; text-transform:none; font-size:0.8rem;">0 selected</span>
+                </div>
+
+                <!-- Recipients List with Checkboxes -->
+                <div id="share-recipients-list" class="share-recipients-scroll" style="max-height:240px;">
+                    <div style="text-align:center; padding:1.5rem; color:var(--text-muted); font-size:0.85rem;">Loading employees...</div>
+                </div>
+
+                <!-- Message Note Input (Instagram Style) -->
+                <div style="margin-top:0.75rem;">
+                    <input type="text" id="share-custom-note" class="form-control" placeholder="Write a message..." maxlength="500" style="font-size:0.875rem; border-radius:var(--radius-pill); background:var(--bg-input); padding:0.55rem 0.85rem;">
+                </div>
+            </div>
+            <div class="modal-dialog-footer" style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem 1rem; border-top:1px solid var(--border-light);">
+                <button type="button" class="btn btn-secondary modal-close-btn" style="border-radius:var(--radius-pill); font-weight:600;">Cancel</button>
+                <button type="button" class="btn btn-primary" id="btn-confirm-share" disabled style="border-radius:var(--radius-pill); font-weight:600; min-width:110px; display:inline-flex; align-items:center; justify-content:center; gap:0.4rem;">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
+                    <span>Send</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post Reactions Viewer Modal (Who Reacted) -->
+    <div class="modal-backdrop" id="post-reactions-modal" role="dialog" aria-modal="true" aria-labelledby="post-reactions-title">
+        <div class="modal-dialog" style="max-width: 440px;">
+            <div class="modal-dialog-header" style="border-bottom: 1px solid var(--border-light); padding: 0.75rem 1rem;">
+                <h3 id="post-reactions-title" style="font-size: 1.05rem; font-weight: 700;">Reactions</h3>
+                <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+            </div>
+            <!-- Reaction Filter Tabs -->
+            <div class="post-reactions-tabs-bar" id="post-reactions-tabs-bar" style="display: flex; gap: 0.35rem; padding: 0.5rem 1rem; border-bottom: 1px solid var(--border-light); overflow-x: auto; -webkit-overflow-scrolling: touch;">
+                <!-- Populated dynamically: All, 👍 3, ❤️ 1, etc. -->
+            </div>
+            <div class="modal-dialog-body" style="padding: 0; max-height: 360px; overflow-y: auto;" id="post-reactions-list">
+                <div style="text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.85rem;">Loading reactions...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instagram-Style Comment Action Modal (Long Press to Delete) -->
+    <div class="modal-backdrop" id="comment-action-modal" role="dialog" aria-modal="true" aria-labelledby="comment-action-title">
+        <div class="modal-dialog" style="max-width: 340px; border-radius: var(--radius-lg); text-align: center; overflow: hidden; padding: 0;">
+            <div style="padding: 1.25rem 1rem 1rem; border-bottom: 1px solid var(--border-light); background: var(--bg-card);">
+                <p id="comment-action-title" style="font-weight: 700; font-size: 0.95rem; margin-bottom: 0.25rem; color: var(--text-primary);">Comment Options</p>
+                <p id="comment-action-snippet" style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 260px; margin: 0 auto;"></p>
+            </div>
+            <button type="button" class="comment-action-btn" id="btn-confirm-delete-comment" style="width: 100%; padding: 0.85rem; background: var(--bg-card); border: none; border-bottom: 1px solid var(--border-light); color: var(--danger); font-weight: 700; font-size: 0.9rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+                <span>Delete Comment</span>
+            </button>
+            <button type="button" class="comment-action-btn modal-close-btn" style="width: 100%; padding: 0.85rem; background: var(--bg-card); border: none; color: var(--text-secondary); font-weight: 600; font-size: 0.9rem; cursor: pointer;">
+                Cancel
+            </button>
+        </div>
+    </div>
+
+    <!-- Instagram-Style Post Action Modal (Click 3-dots to Delete/Report/Share) -->
+    <div class="modal-backdrop" id="post-action-modal" role="dialog" aria-modal="true" aria-labelledby="post-action-title">
+        <div class="modal-dialog" style="max-width: 340px; border-radius: var(--radius-lg); text-align: center; overflow: hidden; padding: 0;">
+            <div style="padding: 1.25rem 1rem 0.85rem; border-bottom: 1px solid var(--border-light); background: var(--bg-card);">
+                <p id="post-action-title" style="font-weight: 700; font-size: 0.95rem; margin-bottom: 0.25rem; color: var(--text-primary);">Post Options</p>
+                <p id="post-action-snippet" style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.3; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 260px; margin: 0 auto;"></p>
+            </div>
+            
+            <!-- Owner Actions: Delete -->
+            <button type="button" class="ig-action-sheet-btn" id="btn-post-action-delete" style="width: 100%; padding: 0.9rem; background: var(--bg-card); border: none; border-bottom: 1px solid var(--border-light); color: var(--danger); font-weight: 700; font-size: 0.925rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: background 0.15s ease;">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="3 6 5 6 21 6"></polyline>
+                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                </svg>
+                <span>Delete Post</span>
+            </button>
+
+            <!-- Admin Actions: Archive / Unarchive Post -->
+            <button type="button" class="ig-action-sheet-btn" id="btn-post-action-archive" style="width: 100%; padding: 0.9rem; background: var(--bg-card); border: none; border-bottom: 1px solid var(--border-light); color: var(--primary); font-weight: 700; font-size: 0.9rem; cursor: pointer; display: none; align-items: center; justify-content: center; gap: 0.5rem; transition: background 0.15s ease;">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="21 8 21 21 3 21 3 8"></polyline>
+                    <rect x="1" y="3" width="22" height="5"></rect>
+                    <line x1="10" y1="12" x2="14" y2="12"></line>
+                </svg>
+                <span id="post-action-archive-text">Archive Post</span>
+            </button>
+
+            <!-- Share action -->
+            <button type="button" class="ig-action-sheet-btn" id="btn-post-action-share" style="width: 100%; padding: 0.9rem; background: var(--bg-card); border: none; border-bottom: 1px solid var(--border-light); color: var(--text-primary); font-weight: 600; font-size: 0.9rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: background 0.15s ease;">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+                <span>Share to Direct Message</span>
+            </button>
+
+            <!-- Non-owner: Report -->
+            <button type="button" class="ig-action-sheet-btn" id="btn-post-action-report" style="width: 100%; padding: 0.9rem; background: var(--bg-card); border: none; border-bottom: 1px solid var(--border-light); color: var(--danger); font-weight: 700; font-size: 0.9rem; cursor: pointer; display: none; align-items: center; justify-content: center; gap: 0.5rem; transition: background 0.15s ease;">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                    <line x1="4" y1="22" x2="4" y2="15"></line>
+                </svg>
+                <span>Report Post</span>
+            </button>
+
+            <!-- Cancel -->
+            <button type="button" class="ig-action-sheet-btn modal-close-btn" id="btn-post-action-cancel" style="width: 100%; padding: 0.9rem; background: var(--bg-card); border: none; color: var(--text-secondary); font-weight: 600; font-size: 0.9rem; cursor: pointer; transition: background 0.15s ease;">
+                Cancel
+            </button>
+        </div>
+    </div>
+
+    <!-- Real-Time Direct Messaging (DM) Modal -->
+    <div class="modal-backdrop" id="chat-modal" role="dialog" aria-modal="true" aria-labelledby="chat-modal-title">
+        <div class="modal-dialog chat-modal-dialog">
+            <!-- Chat Header -->
+            <div class="modal-dialog-header chat-modal-header">
+                <div class="chat-header-user-info" id="chat-header-info">
+                    <button type="button" class="chat-back-btn" id="btn-chat-back-to-list" style="display:none;" title="Back to conversations">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                    </button>
+                    <div class="avatar-round avatar-sm" id="chat-header-avatar" style="width:36px; height:36px; min-width:36px;">💬</div>
+                    <div>
+                        <h3 id="chat-modal-title" style="font-size:1rem; margin:0; line-height:1.2;">Direct Messages</h3>
+                        <div class="chat-header-status" id="chat-header-status" style="font-size:0.75rem; color:var(--text-muted); display:flex; align-items:center;">
+                            <span class="status-indicator-dot" id="chat-status-dot"></span>
+                            <span id="chat-status-text">Balaji Internal Messenger</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <button type="button" class="btn btn-secondary" id="btn-new-chat" style="padding:0.25rem 0.6rem; font-size:0.75rem; min-height:32px;">
+                        + New DM
+                    </button>
+                    <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close Chat">✕</button>
+                </div>
+            </div>
+
+            <div class="chat-modal-layout" id="chat-modal-layout">
+                <!-- Conversation List Pane -->
+                <div class="chat-conversations-pane" id="chat-conversations-pane">
+                    <!-- Search or Start with colleague -->
+                    <div class="chat-search-wrap" style="padding:0.5rem 0.75rem; border-bottom:1px solid var(--border-light);">
+                        <input type="text" id="chat-user-search-input" class="form-control" placeholder="Search colleague to chat..." style="font-size:0.85rem; padding:0.4rem 0.75rem; border-radius:var(--radius-pill);">
+                    </div>
+                    <!-- Quick employee search dropdown/list when typing in search input -->
+                    <div id="chat-user-search-results" style="display:none; max-height:220px; overflow-y:auto; border-bottom:1px solid var(--border-light); background:var(--bg-card);"></div>
+                    <div class="chat-conversations-list" id="chat-conversations-list">
+                        <div style="padding:1.5rem; text-align:center; color:var(--text-muted); font-size:0.85rem;">
+                            Loading conversations...
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Chat Messages Pane -->
+                <div class="chat-messages-pane" id="chat-messages-pane">
+                    <!-- Blank state when no conversation is selected -->
+                    <div id="chat-empty-state" class="chat-empty-state">
+                        <div style="font-size:2.5rem; margin-bottom:0.5rem;">💬</div>
+                        <h4 style="font-size:1rem; font-weight:700; color:var(--text-primary);">Balaji Private Messenger</h4>
+                        <p style="font-size:0.85rem; color:var(--text-secondary); max-width:280px; margin-top:0.25rem;">
+                            Select a colleague from the list or tap New DM to begin real-time messaging.
+                        </p>
+                    </div>
+
+                    <!-- Conversation Thread Body -->
+                    <div id="chat-active-thread" style="display:none; flex-direction:column; flex:1; min-height:0; height:100%; overflow:hidden;">
+                        <!-- Messages scroll container -->
+                        <div class="chat-messages-scroll" id="chat-messages-scroll">
+                            <div id="chat-messages-list" class="chat-messages-list"></div>
+                        </div>
+
+                        <!-- Typing / Connection Indicator Banner -->
+                        <div id="chat-connection-alert" class="chat-connection-alert" style="display:none;"></div>
+
+                        <!-- Message Input Form -->
+                        <form id="chat-input-form" class="chat-input-bar">
+                            <div class="chat-input-capsule">
+                                <input 
+                                    type="text" 
+                                    id="chat-message-input" 
+                                    class="chat-text-input" 
+                                    placeholder="Type a private message..." 
+                                    maxlength="5000" 
+                                    autocomplete="off"
+                                >
+                                <button type="submit" id="btn-send-message" class="btn btn-primary chat-send-btn" title="Send message" aria-label="Send message">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                        <line x1="22" y1="12" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Story Creator Modal -->
+    <div class="modal-backdrop" id="story-creator-modal" role="dialog" aria-modal="true" aria-labelledby="story-creator-modal-title">
+        <div class="modal-dialog" style="max-width: 480px;">
+            <form id="story-creator-form">
+                <div class="modal-dialog-header">
+                    <h3 id="story-creator-modal-title">Add to Story</h3>
+                    <button type="button" class="modal-close-icon modal-close-btn" aria-label="Close">✕</button>
+                </div>
+                <div class="modal-dialog-body">
+                    <!-- Story Type Tabs -->
+                    <div class="story-mode-tabs" style="display:flex; gap:0.5rem; margin-bottom:1rem;">
+                        <button type="button" class="btn btn-primary story-mode-tab active" id="tab-story-media" style="flex:1; font-size:0.85rem; padding:0.45rem 0.5rem;">
+                            📷 Photo / Video
+                        </button>
+                        <button type="button" class="btn btn-secondary story-mode-tab" id="tab-story-text" style="flex:1; font-size:0.85rem; padding:0.45rem 0.5rem;">
+                            ✍️ Text Status
+                        </button>
+                    </div>
+
+                    <!-- 1. Media Upload Section -->
+                    <div id="story-media-mode-section">
+                        <div class="story-upload-zone" id="story-upload-zone">
+                            <input type="file" id="story-file-input" accept="image/jpeg,image/png,image/webp,image/gif,video/mp4,video/webm,video/quicktime" style="display:none;">
+                            <div id="story-upload-placeholder" class="story-upload-placeholder">
+                                <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">📸</div>
+                                <strong style="color:var(--text-primary); font-size:0.95rem;">Select Photo or Video</strong>
+                                <p style="color:var(--text-muted); font-size:0.8rem; margin-top:0.25rem;">JPEG, PNG, GIF, MP4 up to 25MB</p>
+                                <button type="button" class="btn btn-primary" id="btn-browse-story-media" style="margin-top:0.75rem; font-size:0.85rem; padding:0.4rem 1rem;">Choose File</button>
+                            </div>
+                            <div id="story-media-preview-container" class="story-media-preview-container" style="display:none;">
+                                <div id="story-media-preview-box" class="story-media-preview-box"></div>
+                                <button type="button" class="btn-remove-story-media" id="btn-remove-story-media" title="Remove media">✕</button>
+                            </div>
+                        </div>
+
+                        <!-- Optional Caption -->
+                        <div class="form-group" style="margin-top:0.85rem;">
+                            <label class="form-label" for="story-caption-input">Caption (Optional)</label>
+                            <input type="text" id="story-caption-input" class="form-control" placeholder="Add a caption to your story..." maxlength="300" style="font-size:0.9rem;">
+                        </div>
+                    </div>
+
+                    <!-- 2. Text Story Section -->
+                    <div id="story-text-mode-section" style="display:none;">
+                        <!-- Text Canvas Live Preview Box -->
+                        <div class="story-text-canvas-preview gradient-blue" id="story-text-canvas-preview">
+                            <div class="story-text-canvas-content" id="story-text-canvas-content">Type a status...</div>
+                        </div>
+
+                        <!-- Textarea -->
+                        <div class="form-group" style="margin-top:0.75rem;">
+                            <label class="form-label" for="story-text-input">Status Text</label>
+                            <textarea id="story-text-input" class="form-control" rows="3" placeholder="What's happening? Share a quick update..." maxlength="500" style="font-size:0.95rem; resize:none;"></textarea>
+                            <div style="display:flex; justify-content:flex-end; font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">
+                                <span id="story-text-char-count">0</span>/500
+                            </div>
+                        </div>
+
+                        <!-- Gradient Palette -->
+                        <div style="margin-top:0.5rem;">
+                            <label class="form-label" style="margin-bottom:0.4rem; font-size:0.8rem;">Pick Background Color</label>
+                            <div class="story-color-palette" id="story-color-palette">
+                                <button type="button" class="story-color-dot gradient-blue active" data-color="gradient-blue" title="Sky Blue"></button>
+                                <button type="button" class="story-color-dot gradient-purple" data-color="gradient-purple" title="Royal Violet"></button>
+                                <button type="button" class="story-color-dot gradient-sunset" data-color="gradient-sunset" title="Sunset"></button>
+                                <button type="button" class="story-color-dot gradient-emerald" data-color="gradient-emerald" title="Emerald Green"></button>
+                                <button type="button" class="story-color-dot gradient-crimson" data-color="gradient-crimson" title="Fire Crimson"></button>
+                                <button type="button" class="story-color-dot gradient-dark" data-color="gradient-dark" title="Midnight"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 12-Hour Ephemeral Badge Notice -->
+                    <div class="story-notice-badge">
+                        <span>⏳</span>
+                        <div>
+                            <strong>12-Hour Ephemeral Status</strong>
+                            <p>Stories vanish automatically after 12 hours. Stored locally on server with zero Google Drive quota usage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-dialog-footer">
+                    <button type="button" class="btn btn-secondary modal-close-btn">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="btn-publish-story" disabled>Share Story</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Story Viewer Overlay (Instagram / WhatsApp Fullscreen Player) -->
+    <div class="story-viewer-overlay" id="story-viewer-modal" style="display:none;" role="dialog" aria-modal="true" aria-label="Story Viewer">
+        <!-- Close button (top right) -->
+        <button type="button" class="story-viewer-close-btn" id="btn-close-story-viewer" title="Close" aria-label="Close story">✕</button>
+
+        <div class="story-viewer-container">
+            <!-- Story Progress Bars (top) -->
+            <div class="story-progress-bars" id="story-progress-bars"></div>
+
+            <!-- Story Header (Author info + time ago + options) -->
+            <div class="story-header-bar">
+                <div class="story-author-info" id="story-author-info">
+                    <div class="story-header-avatar" id="story-header-avatar"></div>
+                    <div>
+                        <div class="story-header-name" id="story-header-name">Employee</div>
+                        <div class="story-header-time" id="story-header-time">2h ago</div>
+                    </div>
+                </div>
+                <div class="story-header-actions">
+                    <button type="button" class="btn-story-delete" id="btn-delete-active-story" style="display:none;" title="Delete this story">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Story Media Content Canvas -->
+            <div class="story-media-stage" id="story-media-stage">
+                <!-- Left tap zone (previous story) -->
+                <div class="story-tap-zone story-tap-left" id="story-tap-prev" aria-label="Previous story"></div>
+                <!-- Right tap zone (next story) -->
+                <div class="story-tap-zone story-tap-right" id="story-tap-next" aria-label="Next story"></div>
+
+                <!-- Active media element injected here (img or video) -->
+                <div class="story-media-display" id="story-media-display"></div>
+
+                <!-- Story Caption (if any) -->
+                <div class="story-caption-overlay" id="story-caption-overlay" style="display:none;"></div>
+            </div>
+
+            <!-- Story Footer (Seen by / Viewers count for author) -->
+            <div class="story-footer-bar" id="story-footer-bar" style="display:none;">
+                <button type="button" class="story-viewers-pill" id="btn-toggle-story-viewers">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <span id="story-views-count-text">0 views</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Slide-up Viewers Sheet for Author -->
+        <div class="story-viewers-sheet" id="story-viewers-sheet" style="display:none;">
+            <div class="story-viewers-sheet-header">
+                <div style="font-weight:700; font-size:0.95rem;">Seen by <span id="story-sheet-count">0</span></div>
+                <button type="button" class="story-sheet-close" id="btn-close-viewers-sheet">✕</button>
+            </div>
+            <div class="story-viewers-list" id="story-viewers-list"></div>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="/static/js/api.js?v=3.9"></script>
+    <script src="/static/js/chat.js?v=3.9"></script>
+    <script src="/static/js/app.js?v=3.9"></script>
+    
+    <!-- PWA Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js', { scope: '/' })
+                    .then(reg => {
+                        console.log('Balaji Connect PWA active. Scope:', reg.scope);
+                    })
+                    .catch(err => {
+                        console.warn('PWA service worker registration failed:', err);
+                    });
+            });
+        }
+
+        // Capture Android/Chrome Install Prompt
+        let deferredPWAInstallPrompt = null;
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPWAInstallPrompt = e;
+            const installBtn = document.getElementById('btn-pwa-install');
+            if (installBtn) {
+                installBtn.style.display = 'flex';
+                installBtn.onclick = async () => {
+                    if (deferredPWAInstallPrompt) {
+                        deferredPWAInstallPrompt.prompt();
+                        const choice = await deferredPWAInstallPrompt.userChoice;
+                        if (choice.outcome === 'accepted') {
+                            installBtn.style.display = 'none';
+                        }
+                        deferredPWAInstallPrompt = null;
+                    }
+                };
+            }
+        });
+    </script>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>

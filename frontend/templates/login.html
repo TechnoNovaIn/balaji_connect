@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Employee Sign In — Balaji Connect</title>
+    <link rel="stylesheet" href="/static/css/styles.css?v=4.0">
+    
+    <!-- PWA Manifest & App Metas -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#1877f2">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Balaji Connect">
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/images/icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/icons/icon-32.png">
+    <link rel="apple-touch-icon" href="/static/images/icons/apple-touch-icon.png">
+</head>
+<body class="auth-page">
+    <div class="auth-card">
+        <div class="auth-header">
+            <div style="display:inline-flex; align-items:center; gap:0.75rem; margin-bottom:0.75rem;">
+                <img src="/static/images/balaji_logo.jpg" alt="Balaji Transports" class="auth-brand-logo">
+                <div style="text-align:left;">
+                    <div style="font-size:1.35rem; font-weight:800; color:var(--primary); line-height:1.1;">Balaji Connect</div>
+                    <div style="font-size:0.7rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Balaji Transports</div>
+                </div>
+            </div>
+            <p style="font-size:0.875rem; color:var(--text-secondary);">
+                Private corporate network. Sign in with your email, phone, or company credentials.
+            </p>
+        </div>
+
+        <div id="login-error-alert" style="display:none; background-color:#fee2e2; color:var(--danger); border:1px solid #fca5a5; padding:0.75rem; border-radius:var(--radius-md); font-size:0.85rem; margin-bottom:1.25rem;"></div>
+
+        <form id="login-form">
+            <div class="form-group">
+                <label class="form-label" for="login-identifier">Email, Phone Number, or Username</label>
+                <input 
+                    type="text" 
+                    id="login-identifier" 
+                    class="form-control" 
+                    placeholder="Enter email, phone, or username" 
+                    required 
+                    autocomplete="username"
+                    autofocus
+                >
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="login-password">Password</label>
+                <div class="password-input-wrap">
+                    <input 
+                        type="password" 
+                        id="login-password" 
+                        class="form-control" 
+                        placeholder="Enter your password" 
+                        required 
+                        autocomplete="current-password"
+                    >
+                    <button type="button" class="btn-toggle-password" data-target="login-password" aria-label="Toggle password visibility" title="Show/Hide password">
+                        <svg class="eye-icon eye-show" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        <svg class="eye-icon eye-hide" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+                            <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                            <line x1="1" y1="1" x2="23" y2="23"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1.25rem; font-size:0.85rem;">
+                <label style="display:flex; align-items:center; gap:0.5rem; cursor:pointer; color:var(--text-secondary);">
+                    <input type="checkbox" id="remember-me-checkbox" checked style="width:16px; height:16px; accent-color:var(--primary); cursor:pointer;">
+                    <span>Remember me on this device</span>
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="btn-login-submit" style="width:100%; min-height:44px; font-size:0.95rem;">
+                Sign In to Balaji Connect
+            </button>
+        </form>
+
+        <div style="margin-top:1.25rem; text-align:center; font-size:0.9rem;">
+            <span style="color:var(--text-secondary);">New employee? </span>
+            <a href="/register/" style="color:var(--primary); font-weight:700; text-decoration:none;">Create an Account</a>
+        </div>
+
+        <div style="margin-top:1.5rem; padding-top:1.25rem; border-top:1px solid var(--border-color); text-align:center; font-size:0.75rem; color:var(--text-muted); line-height:1.4;">
+            <p>Access is strictly restricted to authorized employees of Balaji Transports.</p>
+            <p style="margin-top:0.25rem;">To request or reset credentials, contact your company system administrator.</p>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="/static/js/api.js?v=4.1"></script>
+    <script>
+        // Check if redirected due to account deactivation
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('deactivated') === 'true') {
+            const alertBox = document.getElementById('login-error-alert');
+            alertBox.innerText = 'This employee account has been deactivated. Please contact your company administrator.';
+            alertBox.style.display = 'block';
+        }
+
+        // Resilient login dispatcher (uses BalajiAPI when loaded, direct fallback otherwise)
+        async function authenticateUser(identifier, password, rememberMe) {
+            if (window.BalajiAPI && typeof window.BalajiAPI.login === 'function') {
+                return await BalajiAPI.login(identifier, password, rememberMe);
+            }
+
+            // Direct native fallback in case of static asset network latency
+            function getLocalCookie(name) {
+                if (document.cookie && document.cookie !== '') {
+                    const cookies = document.cookie.split(';');
+                    for (let i = 0; i < cookies.length; i++) {
+                        const cookie = cookies[i].trim();
+                        if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                            return decodeURIComponent(cookie.substring(name.length + 1));
+                        }
+                    }
+                }
+                return null;
+            }
+
+            const headers = { 'Content-Type': 'application/json' };
+            const csrfToken = getLocalCookie('csrftoken');
+            if (csrfToken) headers['X-CSRFToken'] = csrfToken;
+
+            const res = await fetch('/api/v1/auth/login/', {
+                method: 'POST',
+                headers: headers,
+                credentials: 'same-origin',
+                body: JSON.stringify({ identifier, password, remember_me: rememberMe })
+            });
+
+            const data = await res.json().catch(() => ({}));
+            if (!res.ok) {
+                throw new Error(data.detail || 'Login failed. Please verify your Employee ID and password.');
+            }
+            return data;
+        }
+
+        document.getElementById('login-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('btn-login-submit');
+            const alertBox = document.getElementById('login-error-alert');
+            const identifier = document.getElementById('login-identifier').value.trim();
+            const password = document.getElementById('login-password').value;
+            const rememberMe = document.getElementById('remember-me-checkbox').checked;
+
+            alertBox.style.display = 'none';
+            btn.disabled = true;
+            btn.innerText = 'Verifying credentials...';
+
+            try {
+                const response = await authenticateUser(identifier, password, rememberMe);
+                if (response && response.employee) {
+                    // Browser session is persisted via HttpOnly cookie
+                    window.location.replace('/');
+                }
+            } catch (err) {
+                alertBox.innerText = err.message || 'Login failed. Please verify your Employee ID and password.';
+                alertBox.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                btn.innerText = 'Sign In to Balaji Connect';
+            }
+        });
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js', { scope: '/' }).catch(() => {});
+            });
+        }
+    </script>
+</body>
+</html>
