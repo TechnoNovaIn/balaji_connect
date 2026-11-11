@@ -135,6 +135,8 @@ Balaji Connect uses **Daphne** as its ASGI server to support both HTTP and WebSo
 
 ```bash
 python manage.py runserver 127.0.0.1:8000
+
+
 ```
 Open your browser and navigate to: `http://127.0.0.1:8000/`
 

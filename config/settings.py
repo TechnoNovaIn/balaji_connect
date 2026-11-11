@@ -196,7 +196,7 @@ CSRF_COOKIE_SECURE = not DEBUG
 # Cloudflare Tunnel & Reverse Proxy Trust
 CSRF_TRUSTED_ORIGINS = [
     origin.strip()
-    for origin in os.getenv('CSRF_TRUSTED_ORIGINS', 'http://127.0.0.1:8000,http://localhost:8000').split(',')
+    for origin in os.getenv('CSRF_TRUSTED_ORIGINS', 'http://127.0.0.1:8001,http://localhost:8001,http://127.0.0.1:8000,http://localhost:8000').split(',')
     if origin.strip()
 ]
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
