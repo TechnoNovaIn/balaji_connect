@@ -40,6 +40,8 @@ media_vault_storage/
 google_drive_credentials.json
 token.json
 client_secrets.json
+.env.example
+
 
 # IDE & OS
 .vscode/
