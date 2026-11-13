@@ -1,0 +1,5652 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "4mqiv0tbhpyku6kxyz9yzqvbskosmpis",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xOYYG:4wod3zuNqykNeH73FUbbZ5O3QedfICDJqFytjuXB6J0",
+    "expire_date": "2026-12-04T10:49:08.620Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6zp3wei99ozk64k2s62yei4v5emch9zl",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xOUjW:6jgZo7ywDCc2qmByNlFcxgvZNsGaYmXzLnOEwR8C6oM",
+    "expire_date": "2026-12-04T06:44:30.710Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "78q0t4mnvzy9c8m9b5mcifjao1w4ytfz",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDsAAWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIEKffLWJ6cN0B3bHemkytrssc5a7Ig3Y5NeLn9XD_Dgr28q0xWeZoVRxUpAza2UxZOQMWWFmnB-89UubzaDQAsEUNOTFoMiMrZvH-APWuOD4:1xNlm6:fm4_wDPsvQNA7V9uCikEkZGA9hfzVox-V_ervoJOhes",
+    "expire_date": "2026-12-02T06:44:10.909Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8kz1m96ny4c54e8ri77jpg7qi3sy0xl1",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xOBvZ:qKztSMsZMc1UqX44b4-g7q7W24pFeFtnMb6xNntLS_k",
+    "expire_date": "2026-12-03T10:39:41.745Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "92ttclck06ixfp7rqhl10lkgmyuouu8i",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQRf-la9PQFgbK0r3f0PQxI1XTEgqJxvjv0oSFbu7i3JPzZsZu62S2gouJgY1MstMvc9bfMdUj3Gy6Zu5zWpfoeFX48RZ-yQEf58P9C0y2TDXrYCAgj4Ja2YkeHHkJSgB2gFqDb51W1FoiRQqsGDT1-zg77DRoVaMFS4k5GXzOcXmxUXZaNk3z-QISMkBr:1xR5uh:hSu1-_TvvIKhGjZ5HMUwC2RPpQV9igakZhnqBjOaP9s",
+    "expire_date": "2026-12-11T10:50:47.180Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "95xwzj373niy9phmcxvsl5mqgh5vzvmq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDsAAWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIEKffLWJ6cN0B3bHemkytrssc5a7Ig3Y5NeLn9XD_Dgr28q0xWeZoVRxUpAza2UxZOQMWWFmnB-89UubzaDQAsEUNOTFoMiMrZvH-APWuOD4:1xNmF4:WuwadwachoTh2ShPKj7NgTFavsdJ6HWfXJ9_USbj_AY",
+    "expire_date": "2026-12-02T07:14:06.493Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9f2v5oqodoj29t01iphz8qbur7gyabt9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xOC3M:1PEv2bUJ9Hl3PeOA-TOjPlygX6UMr9nEf60Y2US0xmc",
+    "expire_date": "2026-12-03T10:47:44.445Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aneh5acc5e1hxzf3e4yqe3f9qhu7bekd",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xOrMt:YuTJP3-5L39pRYKY7AqeOduaX6rqbwG51IJTEEfIjJk",
+    "expire_date": "2026-12-05T06:54:39.345Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ax3cy7elemisfhnoppngcfbct2kfnitg",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDsAAWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIEKffLWJ6cN0B3bHemkytrssc5a7Ig3Y5NeLn9XD_Dgr28q0xWeZoVRxUpAza2UxZOQMWWFmnB-89UubzaDQAsEUNOTFoMiMrZvH-APWuOD4:1xNmV1:ai8Vwt1o17z8EZRx1PWZ4g5N0oW_iNysly7c_HjUI0I",
+    "expire_date": "2026-12-02T07:30:35.959Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "b5ew9kjp1o5iz5c165b1v3gcilpr4jjn",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xPJFh:Fl52BFqAr3rsZx7AapdqZIFS1WghkUxZptCjaDtNXtQ",
+    "expire_date": "2026-12-06T12:41:05.856Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cl3nuq8bz9fxvcr71338uz54v7fay581",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDsAAWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIEKffLWJ6cN0B3bHemkytrssc5a7Ig3Y5NeLn9XD_Dgr28q0xWeZoVRxUpAza2UxZOQMWWFmnB-89UubzaDQAsEUNOTFoMiMrZvH-APWuOD4:1xNlmH:NoT-dFmrqf9IALcSFqGR-5EQIBveXpfdygdC2co7vWA",
+    "expire_date": "2026-12-02T06:44:21.907Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cpu1y8b8961kf7zea7s00ggbgm4rs8js",
+  "fields": {
+    "session_data": ".eJxVjkEOwiAURO_C2hBKoZQu3XsG8uF_LGrAlDbRGO9ua7rQ7bw3k3kxB8s8uqXS5BKygVl2-M08hCvlDeAF8rnwUPI8Jc83he-08lNBuh13929ghDqu7aBjhEai0C0SmM62pND3QXYmtGB8lH1EZVZNSogyktKNCqgE9KKz-vuqUq2pZEePe5qebJDaSiHE-wM_k0De:1xOrMx:Rdp1GQCyFg7WPjSnJzahdNNVILn8unPBmelIY3CJIpc",
+    "expire_date": "2026-12-05T06:54:43.348Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ezsuu0jpitnryp0eof5j5cg66qapbe7n",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEjA7R06d5vIDwGixpoSptojP-uTbrQ7T3nnhezbl1GuzaabY5sYMgOv5t34UZlA_HqyqXyUMsyZ883he-08XONdD_t7l9gdG38vl3QRF6DF-BjQtnrFBP0CjUS6F4KY4yLiY6dkohI2klMgVBG1REQbdFGreVaLD2mPD_ZIJQRAPD-ACRxQK0:1xNm76:rVMpkfzYMS2rFL150LQIQ7_RPbqshsT-9fTDai5lSeg",
+    "expire_date": "2026-12-02T07:05:52.152Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pm0p11r100yb6t67idpwlx5e3dtpiflm",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDsAAWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIEKffLWJ6cN0B3bHemkytrssc5a7Ig3Y5NeLn9XD_Dgr28q0xWeZoVRxUpAza2UxZOQMWWFmnB-89UubzaDQAsEUNOTFoMiMrZvH-APWuOD4:1xNmWQ:DWn6cMpvZX_Kc1nwLQle3m0BKSzQNUY5nBen_WXrN_U",
+    "expire_date": "2026-12-02T07:32:02.960Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q0gdrii9zesqhuk6bbn46uvd2e8w856g",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8C1269xvIBW4tasBAm2iM_65NutDtmTnzIh7WZfZrx-ZzIiOR5PC7BYhXLBtIFyjnSmMtS8uBbgrdaaenmvB23N2_wAx9_r4hKsulnlRwxhouB0g8coTIWZAo3QAQhyiMVEkojVMQUoMNJkw2Kadxi3bsPdfi8XHP7UlGoZ1gjL0_EpBAnA:1xOqgj:U1VILQS-zWL3KeNjUNkHQrlLF8LOhrwhgJ-_wmTvFpQ",
+    "expire_date": "2026-12-05T06:11:05.020Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q72i26lytz0t09gp3t9ojcbckwy0c9xl",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQBf-FsyFACy09evcbyMIuFjXQlDbRGP_dNulBrzPz3ps5WJfRrZVml5ANzLDTL_MQ7pR3gTfI18JDycucPN8TftjKLwXpcT7av4MR6rityfvoe6lbbbHFIKNWxnTWAsqAKljTBDSBZKM0dFGLXgmCbuMRom5F3E8r1ZpKdvSc0vxig9JWCSE-XzJvQOA:1xOCEB:5GK1gjVPZDv54QuIK1FOAzjfbKuVQ4ZGKv5zmEDVRSA",
+    "expire_date": "2026-12-03T10:58:55.309Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wuwopgqy0zuxfpjfwtqm3zzr2tah4kjk",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hDsAAWX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIEKffLWJ6cN0B3bHemkytrssc5a7Ig3Y5NeLn9XD_Dgr28q0xWeZoVRxUpAza2UxZOQMWWFmnB-89UubzaDQAsEUNOTFoMiMrZvH-APWuOD4:1xNmDS:fdlxmP6A6x1Q8PZiHqUkjTWmvMWsk6zaXBQMnmdJOSI",
+    "expire_date": "2026-12-02T07:12:26.250Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xrqlmompx0ivvj4ay9d1yx67b638kb55",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG8H1269xsIXG4tasCUNtEY_12bdKHbM3PmRUJclymsHedQMhmIJIffLUW4Yt1AvsR6bhRaXeaS6KbQnXZ6ahlvx939C0yxT983KiGlztEosCxZl0Any90IACNnAnyWAqOVyTAHKnPDk1FeOxa9ycaPW7Rj76XVgI97mZ9kENoLxtj7Aw2xQEU:1xR5sm:LZfbBPLxVNtTaj4_HT1bnbAH-vZ18LU8gxn2l2lUqRM",
+    "expire_date": "2026-12-11T10:48:48.632Z"
+  }
+},
+{
+  "model": "accounts.department",
+  "pk": 1,
+  "fields": {
+    "name": "Operations",
+    "code": "OPS",
+    "description": "Fleet dispatches, driver management, and route planning.",
+    "created_at": "2026-10-30T06:31:13.608Z"
+  }
+},
+{
+  "model": "accounts.department",
+  "pk": 2,
+  "fields": {
+    "name": "Logistics & Fleet",
+    "code": "LOG",
+    "description": "Vehicle maintenance, cargo tracking, and warehouse hubs.",
+    "created_at": "2026-10-30T06:31:13.613Z"
+  }
+},
+{
+  "model": "accounts.department",
+  "pk": 3,
+  "fields": {
+    "name": "Information Technology",
+    "code": "IT",
+    "description": "Systems, digital communications, and data infrastructure.",
+    "created_at": "2026-10-30T06:31:13.617Z"
+  }
+},
+{
+  "model": "accounts.department",
+  "pk": 4,
+  "fields": {
+    "name": "Human Resources",
+    "code": "HR",
+    "description": "Personnel, recruitment, driver welfare, and employee training.",
+    "created_at": "2026-10-30T06:31:13.621Z"
+  }
+},
+{
+  "model": "accounts.department",
+  "pk": 5,
+  "fields": {
+    "name": "Finance & Accounts",
+    "code": "FIN",
+    "description": "Billing, accounting, customer payments, and freight audits.",
+    "created_at": "2026-10-30T06:31:13.625Z"
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$iQ04FGDr76NHIQp79J8BpU$Gw3tUF/A1abZBEpfy89nqZgMzLGzMX3oMW1IAYVivKc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test-1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T06:16:23.498Z",
+    "employee_id": "TEST-1",
+    "department": null,
+    "designation": "",
+    "phone_number": "",
+    "role": "EMPLOYEE",
+    "display_name": "",
+    "bio": "",
+    "date_of_birth": null,
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T06:16:23.943Z",
+    "updated_at": "2026-10-30T06:16:23.943Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Ts9ODHsIWMzFptVtafq3kR$ZoHaFmrh7H3SEfgmwOqUzE0uzhc2OHxxlipKnidcvx8=",
+    "last_login": "2026-11-11T10:33:03.387Z",
+    "is_superuser": false,
+    "username": "bt-1001",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T06:16:31.118Z",
+    "employee_id": "BT-1001",
+    "department": null,
+    "designation": "",
+    "phone_number": "",
+    "role": "EMPLOYEE",
+    "display_name": "harshith-",
+    "bio": "",
+    "date_of_birth": "2000-11-04",
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T06:16:31.560Z",
+    "updated_at": "2026-11-04T06:37:55.309Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$4PjNW3noomZpVLoLeuTQZE$QBncKAXWPmxUpECG4kJLkaL0H3DW+iY1YX0d2hOBx6w=",
+    "last_login": "2026-11-11T10:48:45.676Z",
+    "is_superuser": true,
+    "username": "",
+    "first_name": "Balaji",
+    "last_name": "Administrator",
+    "email": "admin@balajitransports.internal",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-10-30T06:31:13.629Z",
+    "employee_id": "BT-0001",
+    "department": 3,
+    "designation": "System Administrator",
+    "phone_number": "",
+    "role": "ADMIN",
+    "display_name": "Balaji Administrator",
+    "bio": "Balaji Transports",
+    "date_of_birth": "1995-11-03",
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T06:31:13.629Z",
+    "updated_at": "2026-11-03T06:18:28.881Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$yCHO0bKtzUj5cUGDHP0R9n$C/2DJ0Hf5RPXRq0U1MHj9Sv/A0ZKouDAK2Ag8rwcqQg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bt-1002",
+    "first_name": "Pooja",
+    "last_name": "Patel",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T06:31:32.276Z",
+    "employee_id": "BT-1002",
+    "department": 2,
+    "designation": "Warehouse Operations Lead",
+    "phone_number": "",
+    "role": "EMPLOYEE",
+    "display_name": "",
+    "bio": "",
+    "date_of_birth": null,
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T06:31:32.698Z",
+    "updated_at": "2026-10-30T06:31:32.698Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$wmt6XM1YWAj5R2Ut1OAupD$bXyO419H6nLZ0dZV8Qr4ItLk9220NH2PSOjOsXxmnCc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bt-1003",
+    "first_name": "Suresh",
+    "last_name": "Verma",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T06:31:32.710Z",
+    "employee_id": "BT-1003",
+    "department": 5,
+    "designation": "Billing & Freight Auditor",
+    "phone_number": "",
+    "role": "EMPLOYEE",
+    "display_name": "",
+    "bio": "",
+    "date_of_birth": null,
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T06:31:33.124Z",
+    "updated_at": "2026-10-30T06:31:33.124Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$vrRopMibmH7kzoYzKJf9eY$Y1GDAew8QYGPFY7MHm8nkQFT7OyrvnJQx5P4ygpxCzs=",
+    "last_login": "2026-11-05T05:19:30.253Z",
+    "is_superuser": false,
+    "username": "puneeth-",
+    "first_name": "puneeth",
+    "last_name": "",
+    "email": "pbt@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T10:11:54.737Z",
+    "employee_id": "BT-1004",
+    "department": null,
+    "designation": "",
+    "phone_number": "999999999",
+    "role": "EMPLOYEE",
+    "display_name": "puneeth",
+    "bio": "",
+    "date_of_birth": "2000-11-11",
+    "avatar_url": "http://192.168.0.146:8000/api/v1/media/25/view/",
+    "must_change_password": false,
+    "created_at": "2026-10-30T10:11:55.581Z",
+    "updated_at": "2026-11-04T06:09:48.815Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Cv0sdCZo0AXa3IS9rlAr4d$wwjOw7Ib3e+zVBdZC1CP9PFwNtqL6QqTL1A1+zYGgFc=",
+    "last_login": "2026-11-05T05:20:26.481Z",
+    "is_superuser": false,
+    "username": "dhyan-",
+    "first_name": "dhyan",
+    "last_name": "",
+    "email": "dbt@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T10:35:47.655Z",
+    "employee_id": "BT-1005",
+    "department": null,
+    "designation": "",
+    "phone_number": "999999998",
+    "role": "EMPLOYEE",
+    "display_name": "dhyan",
+    "bio": "Ai DEVELOPER",
+    "date_of_birth": "2000-11-11",
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T10:35:48.454Z",
+    "updated_at": "2026-11-03T05:40:11.387Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$TqSJGVXUxOzn7yyh9V4m7G$6haCqsSrBdNvH4zJCpxhcgNBzTS7kcgtb3XWf9ruuCY=",
+    "last_login": "2026-10-30T12:31:20.811Z",
+    "is_superuser": false,
+    "username": "junaid-",
+    "first_name": "junaid",
+    "last_name": "",
+    "email": "jbt@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-30T12:31:18.513Z",
+    "employee_id": "BT-1006",
+    "department": null,
+    "designation": "",
+    "phone_number": "999999997",
+    "role": "EMPLOYEE",
+    "display_name": "junaid",
+    "bio": "",
+    "date_of_birth": "2001-11-11",
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-10-30T12:31:20.800Z",
+    "updated_at": "2026-10-30T12:31:20.800Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.employee",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ejHzrQcDxEBB4OQD7I9Vwq$Sr3/JniN9Wq/nPlS3PRYGTAI52e8/sp8fPhp0DOcwJ0=",
+    "last_login": "2026-11-05T05:54:59.662Z",
+    "is_superuser": false,
+    "username": "raju-",
+    "first_name": "Raju",
+    "last_name": "",
+    "email": "raju@balajitransports.in",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-05T05:42:38.734Z",
+    "employee_id": "BT-1007",
+    "department": null,
+    "designation": "",
+    "phone_number": "9876543211",
+    "role": "EMPLOYEE",
+    "display_name": "Raju",
+    "bio": "",
+    "date_of_birth": "1999-11-06",
+    "avatar_url": "",
+    "must_change_password": false,
+    "created_at": "2026-11-05T05:42:39.144Z",
+    "updated_at": "2026-11-05T05:42:39.144Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 1,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "local",
+    "storage_file_id": "3a9ed27b712e4d45a16d5ba169254520.png",
+    "original_filename": "Screenshot 2026-10-30 124759.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 107600,
+    "file_hash": "d58bf0b4daabd2bec7a195253964bb6929427bf70084b105b9775792b7407d6d",
+    "width": 427,
+    "height": 866,
+    "is_deleted": false,
+    "created_at": "2026-10-30T07:18:16.725Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 2,
+  "fields": {
+    "uploader": [
+      "BT-1001"
+    ],
+    "storage_provider": "local",
+    "storage_file_id": "d576b9582e24404ea977b092477d1b42.png",
+    "original_filename": "Screenshot 2026-10-30 124759.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 107600,
+    "file_hash": "d58bf0b4daabd2bec7a195253964bb6929427bf70084b105b9775792b7407d6d",
+    "width": 427,
+    "height": 866,
+    "is_deleted": false,
+    "created_at": "2026-10-30T07:49:34.464Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 3,
+  "fields": {
+    "uploader": [
+      "BT-1001"
+    ],
+    "storage_provider": "local",
+    "storage_file_id": "50552bb40b004808a47b64a86966f948.png",
+    "original_filename": "11791881.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 308230,
+    "file_hash": "60860a828f2d12685ef48e6f63843d111a17e299f86af9157392ce1474b5f761",
+    "width": null,
+    "height": null,
+    "is_deleted": false,
+    "created_at": "2026-10-30T08:34:41.071Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 4,
+  "fields": {
+    "uploader": [
+      "BT-1004"
+    ],
+    "storage_provider": "local",
+    "storage_file_id": "0b46c810bd8e439298ecc280647acdb8.png",
+    "original_filename": "Screenshot 2026-10-30 163124.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 151852,
+    "file_hash": "2e75872642330fd7a6322a4bacb22df9d981ea5a7a20929c914a446f2728172e",
+    "width": 405,
+    "height": 878,
+    "is_deleted": false,
+    "created_at": "2026-10-30T11:07:36.940Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 5,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1T-rjh-1ETMGeqhqYK3HEXrd1lRdSajIc",
+    "original_filename": "Screenshot 2026-10-30 122841.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 172671,
+    "file_hash": "f7c88eba51e315e91962a3c618bdd8f0afd54945bc255c22bc03844c9b0d0802",
+    "width": 1101,
+    "height": 792,
+    "is_deleted": false,
+    "created_at": "2026-10-31T09:55:29.055Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 6,
+  "fields": {
+    "uploader": [
+      "BT-1005"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "17KYnuNbMCzeSDzQ1yNOI1oWTK1HO9mNY",
+    "original_filename": "Screenshot 2026-10-30 171559.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 40250,
+    "file_hash": "b4a230d88c828b5689e67441947ab310f80aa80534e3784be79f30ea7ba857e6",
+    "width": 1917,
+    "height": 1000,
+    "is_deleted": false,
+    "created_at": "2026-10-31T10:00:13.387Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 7,
+  "fields": {
+    "uploader": [
+      "BT-1001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1lf6ofoJhNPm__PWeRPCD-e0PHldLzPsy",
+    "original_filename": "11791881.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 308230,
+    "file_hash": "60860a828f2d12685ef48e6f63843d111a17e299f86af9157392ce1474b5f761",
+    "width": null,
+    "height": null,
+    "is_deleted": false,
+    "created_at": "2026-10-31T10:23:20.912Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 8,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1pkTuDBC3rt7W9jFi67KxXKNnZ4pk6Rt_",
+    "original_filename": "Screenshot 2026-10-31 153600.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 110467,
+    "file_hash": "e2ea5184c52374e7fdf0594f647cd4d33a61770a1a89f0b45aad4cacf13b5ccc",
+    "width": 440,
+    "height": 895,
+    "is_deleted": false,
+    "created_at": "2026-11-02T05:38:22.634Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 10,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1bm5qcVvZcqxky-1wjEmv19rZLaB8xW6m",
+    "original_filename": "Screenshot 2026-11-02 114837.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 72982,
+    "file_hash": "ee3dec897b998e31ea5dbc07634b38d2ba7c408eeafb4070a63cea41af2babde",
+    "width": 422,
+    "height": 748,
+    "is_deleted": false,
+    "created_at": "2026-11-02T06:37:57.866Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 12,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "13RoU48QzSS4QlZ6RRcChxnNevUeFyuMc",
+    "original_filename": "11791881.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 308230,
+    "file_hash": "60860a828f2d12685ef48e6f63843d111a17e299f86af9157392ce1474b5f761",
+    "width": 1280,
+    "height": 720,
+    "is_deleted": false,
+    "created_at": "2026-11-02T06:45:30.765Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 13,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "14my6ejgK78XOAaqA6C2Vx_KsAbuyuh8t",
+    "original_filename": "Screenshot 2026-10-30 163124.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 151852,
+    "file_hash": "2e75872642330fd7a6322a4bacb22df9d981ea5a7a20929c914a446f2728172e",
+    "width": 405,
+    "height": 878,
+    "is_deleted": false,
+    "created_at": "2026-11-02T06:49:40.716Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 14,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1w51QLPWtbWxlfJK-8X0jSUJfmew_Oj5c",
+    "original_filename": "WhatsApp Image 2026-10-30 at 3.09.11 PM.jpeg",
+    "file_type": "IMAGE",
+    "mime_type": "image/jpeg",
+    "file_size_bytes": 263321,
+    "file_hash": "4d19ba8e39dd492e253dbebe0fd14c8c161abab06a29ccac4af62ab4b345dec9",
+    "width": 1600,
+    "height": 1600,
+    "is_deleted": false,
+    "created_at": "2026-11-02T06:58:53.090Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 15,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1WgvpGy0Oi5HfPrggxv7DEjB3lneqQp5j",
+    "original_filename": "WhatsApp Image 2026-10-30 at 12.57.46 PM (2).jpeg",
+    "file_type": "IMAGE",
+    "mime_type": "image/jpeg",
+    "file_size_bytes": 28277,
+    "file_hash": "3349015efda3208d0bff42a82626715d84d90fef908e89f5f63982ef993f2aff",
+    "width": 588,
+    "height": 1280,
+    "is_deleted": false,
+    "created_at": "2026-11-02T07:04:20.370Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 17,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1og9QuMvrfXr_usxCth3v9Kc2L9CQBR-Y",
+    "original_filename": "Screenshot 2026-10-30 160700.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 92494,
+    "file_hash": "adfe9a3eb383fc25fa859e23bfe406d14ca730eacfc90c618ed215550c3906e9",
+    "width": 437,
+    "height": 767,
+    "is_deleted": false,
+    "created_at": "2026-11-02T07:15:17.900Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 18,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1tzPn-jI6xVj95-Bft7FcwGMXxr9lH-mq",
+    "original_filename": "Screenshot 2026-10-30 142854.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 5321,
+    "file_hash": "d97b3a1f997753b600ba44773255d8b7e42fb579ed71375e9f05f814f9ce1b41",
+    "width": 383,
+    "height": 192,
+    "is_deleted": false,
+    "created_at": "2026-11-02T07:24:30.920Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 19,
+  "fields": {
+    "uploader": [
+      "BT-1005"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "19dXhXH2Vjdu3j19FHs1CHZYsi8ngE-mA",
+    "original_filename": "Screenshot 2026-11-03 113607.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 101941,
+    "file_hash": "caa53b3365e67c04069c34ab8a2772aeb85d30e776c91c13fb609c80bb0668f3",
+    "width": 445,
+    "height": 850,
+    "is_deleted": false,
+    "created_at": "2026-11-03T06:11:51.463Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 20,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1BgV9bziEcwL85z8UR5oR3JbEknbdNwVe",
+    "original_filename": "3306.jpg",
+    "file_type": "IMAGE",
+    "mime_type": "image/jpeg",
+    "file_size_bytes": 661921,
+    "file_hash": "be768f088a9763c5854f5a6c34d2cb6d387d535bdf6237c43253fe413d44f6ea",
+    "width": 883,
+    "height": 1920,
+    "is_deleted": false,
+    "created_at": "2026-11-03T10:38:20.679Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 21,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1jhyPPAT9XWVwnBG2B9jKPKYybc0R0OU2",
+    "original_filename": "4908.jpg",
+    "file_type": "IMAGE",
+    "mime_type": "image/jpeg",
+    "file_size_bytes": 425582,
+    "file_hash": "e7d5bc2a83485a9c649d7fce26a43ebedac5028a77cbf7c0c853f8ff8c1114ab",
+    "width": 1268,
+    "height": 2756,
+    "is_deleted": false,
+    "created_at": "2026-11-03T10:41:57.958Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 22,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1aFUnMQunSNCvFwDZG105JvrIcK95gbA4",
+    "original_filename": "4029.jpg",
+    "file_type": "IMAGE",
+    "mime_type": "image/jpeg",
+    "file_size_bytes": 4755155,
+    "file_hash": "de4c15aa3a5761ddd751f6954dd366b7ecfd4ec0eec58157ae54b325c5b5e650",
+    "width": 1440,
+    "height": 1920,
+    "is_deleted": false,
+    "created_at": "2026-11-03T10:47:35.473Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 23,
+  "fields": {
+    "uploader": [
+      "BT-0001"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1x5f9w3j8RMnshoTV3Zj5VFPuf3W9PhR7",
+    "original_filename": "Screenshot 2026-11-03 144001.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 81509,
+    "file_hash": "0c9b4c65a7ad2e8ca3efbc069258857adc31a8de5efba6edb4686e0d4b7f5628",
+    "width": 385,
+    "height": 816,
+    "is_deleted": false,
+    "created_at": "2026-11-03T10:50:06.540Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 24,
+  "fields": {
+    "uploader": [
+      "BT-1004"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "11PDkJxorh-hN5jz9B9cas5DP-WJjAFB-",
+    "original_filename": "323.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 377311,
+    "file_hash": "4f171731528e3f2eb87de9ec8030e6d0b6b1ce00369f18ac8dcea3d9960856e3",
+    "width": null,
+    "height": null,
+    "is_deleted": false,
+    "created_at": "2026-11-04T06:18:40.796Z"
+  }
+},
+{
+  "model": "media_vault.mediaattachment",
+  "pk": 25,
+  "fields": {
+    "uploader": [
+      "BT-1004"
+    ],
+    "storage_provider": "gdrive",
+    "storage_file_id": "1Q91MX0zclNKARt8S1OfpQAnz_H9voqie",
+    "original_filename": "323.png",
+    "file_type": "IMAGE",
+    "mime_type": "image/png",
+    "file_size_bytes": 377311,
+    "file_hash": "4f171731528e3f2eb87de9ec8030e6d0b6b1ce00369f18ac8dcea3d9960856e3",
+    "width": null,
+    "height": null,
+    "is_deleted": false,
+    "created_at": "2026-11-05T05:20:03.034Z"
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 1,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "Welcome to Balaji Connect! 🚛\n\nThis is our private company network for Balaji Transports employees. Use this platform to share operational updates, team photos, milestones, and daily transport achievements.\n\nPlease remember to keep all posts professional and confidential.",
+    "like_count": 3,
+    "comment_count": 0,
+    "is_deleted": false,
+    "is_archived": false,
+    "created_at": "2026-10-30T06:31:33.131Z",
+    "updated_at": "2026-10-30T06:31:33.131Z",
+    "media_attachments": []
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 2,
+  "fields": {
+    "author": [
+      "BT-1001"
+    ],
+    "content": "Operations Update: All South Corridor deliveries departed on schedule today with 100% on-time departure rate. Kudos to the driving crew! 🛣️",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-30T06:31:33.135Z",
+    "updated_at": "2026-10-30T06:31:33.135Z",
+    "media_attachments": []
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 3,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 2,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-30T07:18:20.204Z",
+    "updated_at": "2026-10-30T07:18:20.204Z",
+    "media_attachments": [
+      1
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 4,
+  "fields": {
+    "author": [
+      "BT-1001"
+    ],
+    "content": "testing",
+    "like_count": 1,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-30T07:49:47.210Z",
+    "updated_at": "2026-10-30T07:49:47.210Z",
+    "media_attachments": [
+      2
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 5,
+  "fields": {
+    "author": [
+      "BT-1001"
+    ],
+    "content": "hello",
+    "like_count": 4,
+    "comment_count": 1,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-30T07:50:17.733Z",
+    "updated_at": "2026-10-30T07:50:17.733Z",
+    "media_attachments": []
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 6,
+  "fields": {
+    "author": [
+      "BT-1004"
+    ],
+    "content": "🚀 Milestone Update: testing phase",
+    "like_count": 3,
+    "comment_count": 2,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-30T11:07:41.382Z",
+    "updated_at": "2026-10-30T11:07:41.382Z",
+    "media_attachments": [
+      4
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 7,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 1,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-31T09:55:34.885Z",
+    "updated_at": "2026-10-31T09:55:34.886Z",
+    "media_attachments": [
+      5
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 8,
+  "fields": {
+    "author": [
+      "BT-1005"
+    ],
+    "content": "",
+    "like_count": 1,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-10-31T10:00:15.887Z",
+    "updated_at": "2026-10-31T10:00:15.887Z",
+    "media_attachments": [
+      6
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 9,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "Testing",
+    "like_count": 1,
+    "comment_count": 1,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T05:38:33.184Z",
+    "updated_at": "2026-11-02T05:38:33.184Z",
+    "media_attachments": [
+      8
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 10,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "new test",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T06:38:23.711Z",
+    "updated_at": "2026-11-02T06:38:23.711Z",
+    "media_attachments": [
+      10
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 11,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T06:45:14.226Z",
+    "updated_at": "2026-11-02T06:45:14.226Z",
+    "media_attachments": [
+      8
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 12,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T06:45:34.180Z",
+    "updated_at": "2026-11-02T06:45:34.180Z",
+    "media_attachments": [
+      12
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 13,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T06:49:42.627Z",
+    "updated_at": "2026-11-02T06:49:42.627Z",
+    "media_attachments": [
+      13
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 14,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T06:58:54.532Z",
+    "updated_at": "2026-11-02T06:58:54.532Z",
+    "media_attachments": [
+      14
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 15,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:04:21.513Z",
+    "updated_at": "2026-11-02T07:04:21.513Z",
+    "media_attachments": [
+      15
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 16,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 3,
+    "comment_count": 0,
+    "is_deleted": false,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:10:08.884Z",
+    "updated_at": "2026-11-02T07:10:08.884Z",
+    "media_attachments": [
+      13
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 17,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:14:47.443Z",
+    "updated_at": "2026-11-02T07:14:47.443Z",
+    "media_attachments": [
+      8
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 18,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 3,
+    "comment_count": 0,
+    "is_deleted": false,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:15:20.558Z",
+    "updated_at": "2026-11-02T07:15:20.558Z",
+    "media_attachments": [
+      17
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 19,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 0,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:18:17.355Z",
+    "updated_at": "2026-11-02T07:18:17.355Z",
+    "media_attachments": [
+      5
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 20,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "",
+    "like_count": 2,
+    "comment_count": 2,
+    "is_deleted": false,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:24:31.757Z",
+    "updated_at": "2026-11-02T07:24:31.757Z",
+    "media_attachments": [
+      18
+    ]
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 21,
+  "fields": {
+    "author": [
+      "BT-0001"
+    ],
+    "content": "🚀 Milestone Update: hey guys its a meeting today !!",
+    "like_count": 5,
+    "comment_count": 3,
+    "is_deleted": false,
+    "is_archived": false,
+    "created_at": "2026-11-02T07:34:03.575Z",
+    "updated_at": "2026-11-02T07:34:03.575Z",
+    "media_attachments": []
+  }
+},
+{
+  "model": "posts.post",
+  "pk": 22,
+  "fields": {
+    "author": [
+      "BT-1005"
+    ],
+    "content": "",
+    "like_count": 1,
+    "comment_count": 0,
+    "is_deleted": true,
+    "is_archived": false,
+    "created_at": "2026-11-03T06:11:52.671Z",
+    "updated_at": "2026-11-03T06:11:52.671Z",
+    "media_attachments": [
+      19
+    ]
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T07:17:38.899Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 6,
+  "fields": {
+    "post": 5,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T08:20:54.035Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 7,
+  "fields": {
+    "post": 5,
+    "user": [
+      "BT-1001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T08:33:47.257Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 8,
+  "fields": {
+    "post": 5,
+    "user": [
+      "BT-1005"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T10:36:30.861Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 12,
+  "fields": {
+    "post": 6,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LOVE",
+    "created_at": "2026-10-30T11:07:59.695Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 13,
+  "fields": {
+    "post": 5,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T11:08:05.359Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 14,
+  "fields": {
+    "post": 4,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T11:08:09.946Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 15,
+  "fields": {
+    "post": 6,
+    "user": [
+      "BT-1005"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T11:17:12.516Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 16,
+  "fields": {
+    "post": 3,
+    "user": [
+      "BT-1005"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T12:12:33.342Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 17,
+  "fields": {
+    "post": 6,
+    "user": [
+      "BT-1006"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T12:31:30.506Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 18,
+  "fields": {
+    "post": 3,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "WOW",
+    "created_at": "2026-10-31T09:16:09.149Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 19,
+  "fields": {
+    "post": 7,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-31T09:57:46.521Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 20,
+  "fields": {
+    "post": 8,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-31T10:01:50.147Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 21,
+  "fields": {
+    "post": 9,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-02T05:38:37.283Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 29,
+  "fields": {
+    "post": 21,
+    "user": [
+      "BT-1005"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-03T05:50:58.703Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 30,
+  "fields": {
+    "post": 22,
+    "user": [
+      "BT-1005"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-03T06:12:31.932Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 38,
+  "fields": {
+    "post": 18,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-03T10:37:44.563Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 46,
+  "fields": {
+    "post": 1,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-03T10:58:27.260Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 48,
+  "fields": {
+    "post": 16,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-03T12:20:20.407Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 59,
+  "fields": {
+    "post": 16,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-04T05:34:19.608Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 65,
+  "fields": {
+    "post": 18,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-04T05:36:51.018Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 75,
+  "fields": {
+    "post": 21,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-04T06:07:34.607Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 77,
+  "fields": {
+    "post": 20,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-04T11:17:18.358Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 80,
+  "fields": {
+    "post": 21,
+    "user": [
+      "BT-1007"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-05T05:42:47.400Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 81,
+  "fields": {
+    "post": 20,
+    "user": [
+      "BT-1007"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-05T05:42:49.474Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 82,
+  "fields": {
+    "post": 18,
+    "user": [
+      "BT-1007"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-05T05:42:50.924Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 83,
+  "fields": {
+    "post": 16,
+    "user": [
+      "BT-1007"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-05T05:42:52.318Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 84,
+  "fields": {
+    "post": 1,
+    "user": [
+      "BT-1007"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-05T05:42:54.235Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 85,
+  "fields": {
+    "post": 21,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-05T05:46:15.438Z"
+  }
+},
+{
+  "model": "posts.postreaction",
+  "pk": 86,
+  "fields": {
+    "post": 21,
+    "user": [
+      "BT-1001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-11T10:33:09.423Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 1,
+  "fields": {
+    "post": 5,
+    "author": [
+      "BT-1001"
+    ],
+    "content": "testing",
+    "like_count": 1,
+    "is_deleted": false,
+    "created_at": "2026-10-30T08:34:05.993Z",
+    "updated_at": "2026-10-30T08:34:05.993Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 2,
+  "fields": {
+    "post": 6,
+    "author": [
+      "BT-1004"
+    ],
+    "content": "lets go",
+    "like_count": 0,
+    "is_deleted": true,
+    "created_at": "2026-10-30T11:08:45.730Z",
+    "updated_at": "2026-10-30T11:08:45.730Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 3,
+  "fields": {
+    "post": 6,
+    "author": [
+      "BT-1005"
+    ],
+    "content": "101",
+    "like_count": 3,
+    "is_deleted": false,
+    "created_at": "2026-10-30T11:16:54.685Z",
+    "updated_at": "2026-10-30T11:16:54.685Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 4,
+  "fields": {
+    "post": 6,
+    "author": [
+      "BT-1005"
+    ],
+    "content": "https://media.giphy.com/media/111ebonMs90YLu/giphy.gif",
+    "like_count": 1,
+    "is_deleted": false,
+    "created_at": "2026-10-30T12:13:09.608Z",
+    "updated_at": "2026-10-30T12:13:09.608Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 5,
+  "fields": {
+    "post": 9,
+    "author": [
+      "BT-0001"
+    ],
+    "content": "https://media.giphy.com/media/111ebonMs90YLu/giphy.gif",
+    "like_count": 0,
+    "is_deleted": false,
+    "created_at": "2026-11-02T06:19:55.812Z",
+    "updated_at": "2026-11-02T06:19:55.812Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 6,
+  "fields": {
+    "post": 20,
+    "author": [
+      "BT-0001"
+    ],
+    "content": "https://media.giphy.com/media/111ebonMs90YLu/giphy.gif",
+    "like_count": 2,
+    "is_deleted": false,
+    "created_at": "2026-11-02T07:25:00.391Z",
+    "updated_at": "2026-11-02T07:25:00.391Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 7,
+  "fields": {
+    "post": 21,
+    "author": [
+      "BT-1001"
+    ],
+    "content": "ok",
+    "like_count": 0,
+    "is_deleted": false,
+    "created_at": "2026-11-02T07:36:24.123Z",
+    "updated_at": "2026-11-02T07:36:24.124Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 8,
+  "fields": {
+    "post": 21,
+    "author": [
+      "BT-1001"
+    ],
+    "content": "https://media.giphy.com/media/3ohzdIuqJoo8QdKlnW/giphy.gif",
+    "like_count": 1,
+    "is_deleted": true,
+    "created_at": "2026-11-02T07:36:48.735Z",
+    "updated_at": "2026-11-02T07:36:48.735Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 9,
+  "fields": {
+    "post": 21,
+    "author": [
+      "BT-0001"
+    ],
+    "content": "🎉",
+    "like_count": 1,
+    "is_deleted": false,
+    "created_at": "2026-11-03T09:06:11.272Z",
+    "updated_at": "2026-11-03T09:06:11.272Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 10,
+  "fields": {
+    "post": 21,
+    "author": [
+      "BT-0001"
+    ],
+    "content": "Hello",
+    "like_count": 0,
+    "is_deleted": true,
+    "created_at": "2026-11-03T10:37:15.605Z",
+    "updated_at": "2026-11-03T10:37:15.606Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 11,
+  "fields": {
+    "post": 21,
+    "author": [
+      "BT-1004"
+    ],
+    "content": "https://media.giphy.com/media/111ebonMs90YLu/giphy.gif",
+    "like_count": 0,
+    "is_deleted": false,
+    "created_at": "2026-11-03T10:57:41.796Z",
+    "updated_at": "2026-11-03T10:57:41.796Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 12,
+  "fields": {
+    "post": 18,
+    "author": [
+      "BT-0001"
+    ],
+    "content": "Hello",
+    "like_count": 0,
+    "is_deleted": true,
+    "created_at": "2026-11-04T05:13:07.832Z",
+    "updated_at": "2026-11-04T05:13:07.832Z"
+  }
+},
+{
+  "model": "posts.comment",
+  "pk": 13,
+  "fields": {
+    "post": 20,
+    "author": [
+      "BT-0001"
+    ],
+    "content": "Testing",
+    "like_count": 0,
+    "is_deleted": false,
+    "created_at": "2026-11-04T09:49:22.868Z",
+    "updated_at": "2026-11-04T09:49:22.868Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 2,
+  "fields": {
+    "comment": 3,
+    "user": [
+      "BT-1005"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T12:12:56.874Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 3,
+  "fields": {
+    "comment": 3,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T12:18:36.764Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 4,
+  "fields": {
+    "comment": 3,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-30T12:21:34.333Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 6,
+  "fields": {
+    "comment": 4,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-31T09:16:42.690Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 7,
+  "fields": {
+    "comment": 1,
+    "user": [
+      "BT-1001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-10-31T10:36:51.662Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 8,
+  "fields": {
+    "comment": 6,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-02T07:25:02.922Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 10,
+  "fields": {
+    "comment": 8,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-02T07:59:18.236Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 18,
+  "fields": {
+    "comment": 9,
+    "user": [
+      "BT-0001"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-03T10:20:02.409Z"
+  }
+},
+{
+  "model": "posts.commentreaction",
+  "pk": 20,
+  "fields": {
+    "comment": 6,
+    "user": [
+      "BT-1004"
+    ],
+    "reaction_type": "LIKE",
+    "created_at": "2026-11-04T05:26:24.349Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 1,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 5,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "Balaji Administrator reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T08:20:54.038Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 2,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 5,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "dhyan reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T10:36:30.878Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 3,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 4,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "dhyan reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T10:59:24.374Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 4,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 4,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "dhyan reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T10:59:26.393Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 5,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 5,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T11:08:05.361Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 6,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 4,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T11:08:09.946Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 7,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "COMMENT",
+    "target_post": 6,
+    "target_comment": 3,
+    "title": "New Comment",
+    "message": "dhyan commented on your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T11:16:54.701Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 8,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 6,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "dhyan reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T11:17:12.516Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 9,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 3,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "dhyan reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T12:12:33.358Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 10,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "COMMENT",
+    "target_post": 6,
+    "target_comment": 4,
+    "title": "New Comment",
+    "message": "dhyan commented on your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T12:13:09.608Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 11,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 6,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "junaid reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-30T12:31:30.522Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 12,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 8,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-10-31T10:01:50.149Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 13,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "harshith- reacted ❤️ to your post.",
+    "is_read": true,
+    "created_at": "2026-11-02T07:36:10.532Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 14,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "COMMENT",
+    "target_post": 21,
+    "target_comment": 7,
+    "title": "New Comment",
+    "message": "harshith- commented on your post.",
+    "is_read": true,
+    "created_at": "2026-11-02T07:36:24.130Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 15,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "COMMENT",
+    "target_post": 21,
+    "target_comment": 8,
+    "title": "New Comment",
+    "message": "harshith- commented on your post.",
+    "is_read": true,
+    "created_at": "2026-11-02T07:36:48.740Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 16,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, Balaji! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": true,
+    "created_at": "2026-11-03T05:14:45.896Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 17,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": true,
+    "created_at": "2026-11-03T05:14:45.901Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 18,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": false,
+    "created_at": "2026-11-03T05:14:45.903Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 19,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": false,
+    "created_at": "2026-11-03T05:14:45.905Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 20,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": true,
+    "created_at": "2026-11-03T05:14:45.906Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 21,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": true,
+    "created_at": "2026-11-03T05:14:45.908Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 22,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": false,
+    "created_at": "2026-11-03T05:14:45.910Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 23,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-0001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Balaji Administrator's (Information Technology) birthday! Wish them a wonderful year ahead! 🎉",
+    "is_read": false,
+    "created_at": "2026-11-03T05:14:45.912Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 24,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T05:38:57.280Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 25,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 20,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T05:39:03.470Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 26,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "dhyan reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T05:50:58.706Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 27,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "SYSTEM",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "⚠️ Content Flagged for Moderation",
+    "message": "puneeth reported Post #21 (Inappropriate or offensive content). Review in Admin Dashboard.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:17:32.201Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 28,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "COMMENT",
+    "target_post": 21,
+    "target_comment": 11,
+    "title": "New Comment",
+    "message": "puneeth commented on your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:57:41.799Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 29,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 1,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:58:18.506Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 30,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 1,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:58:20.729Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 31,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 1,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:58:22.710Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 32,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 1,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:58:25.566Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 33,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 1,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:58:27.262Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 34,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 16,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-03T10:58:36.614Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 35,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:20:30.143Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 36,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:24:42.164Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 37,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:29:08.800Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 38,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 18,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:30:22.001Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 39,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:30:29.093Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 40,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:30:30.477Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 41,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:30:40.763Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 42,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 16,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:34:17.206Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 43,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 16,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:34:19.610Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 44,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:36:35.646Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 45,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:36:37.067Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 46,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:36:38.848Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 47,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:36:41.932Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 48,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 18,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:36:45.972Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 49,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 18,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:36:51.019Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 50,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:40:07.961Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 51,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:40:09.063Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 52,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:40:10.998Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 53,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:40:35.448Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 54,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:42:25.476Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 55,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted ❤️ to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:42:31.439Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 56,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T05:42:33.102Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 57,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T06:07:28.656Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 58,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T06:07:33.468Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 59,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "puneeth reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-04T06:07:34.609Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 60,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, harshith-! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": true,
+    "created_at": "2026-11-04T06:37:57.656Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 61,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-04T06:37:57.664Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 62,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-04T06:37:57.668Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 63,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-04T06:37:57.671Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 64,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-04T06:37:57.677Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 65,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-04T06:37:57.681Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 66,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-04T06:37:57.685Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 67,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is harshith-'s birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-04T06:37:57.689Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 68,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "SYSTEM",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "⚠️ Content Flagged for Moderation",
+    "message": "dhyan reported Post #21 (Other policy violation). Review in Admin Dashboard.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:20:38.485Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 69,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "Raju reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:42:47.402Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 70,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 20,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "Raju reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:42:49.477Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 71,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 18,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "Raju reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:42:50.926Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 72,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 16,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "Raju reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:42:52.320Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 73,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 1,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "Raju reacted 👍 to your post.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:42:54.237Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 74,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "SYSTEM",
+    "target_post": 18,
+    "target_comment": null,
+    "title": "⚠️ Content Flagged for Moderation",
+    "message": "Raju reported Post #18 (Other policy violation). Review in Admin Dashboard.",
+    "is_read": true,
+    "created_at": "2026-11-05T05:43:02.357Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 75,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, Raju! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.595Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 76,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, Raju! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.593Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 77,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-06T12:39:05.610Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 78,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-06T12:39:05.611Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 79,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-06T12:39:05.616Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 80,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-06T12:39:05.616Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 81,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.621Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 82,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.622Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 83,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.626Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 84,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.628Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 85,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.632Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 86,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.632Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 87,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.636Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 88,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.636Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 89,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.639Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 90,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.640Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 91,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.643Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 92,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1007"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is Raju's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-06T12:39:05.643Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 93,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, puneeth! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.588Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 94,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, puneeth! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.589Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 95,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.611Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 96,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.612Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 97,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.618Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 98,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.618Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 99,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.624Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 100,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.625Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 101,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.628Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 102,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.629Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 103,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.633Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 104,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.634Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 105,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.637Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 106,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.638Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 107,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.643Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 108,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.644Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 109,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.647Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 110,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1004"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is puneeth's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.647Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 111,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, dhyan! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.651Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 112,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, dhyan! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.652Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 113,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.655Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 114,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.655Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 115,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.660Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 116,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.661Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 117,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.663Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 118,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.664Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 119,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.667Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 120,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.667Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 121,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.670Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 122,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.670Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 123,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.674Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 124,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.675Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 125,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.677Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 126,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.677Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 127,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.680Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 128,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1005"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is dhyan's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.680Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 129,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, junaid! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.685Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 130,
+  "fields": {
+    "recipient": [
+      "BT-1006"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎉 Happy Birthday from Balaji Transports!",
+    "message": "Wishing you a very Happy Birthday, junaid! May this year bring you great joy, health, and success! 🎂🎈",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.685Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 131,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.688Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 132,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.688Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 133,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.692Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 134,
+  "fields": {
+    "recipient": [
+      "BT-1001"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": true,
+    "created_at": "2026-11-11T10:00:36.693Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 135,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.695Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 136,
+  "fields": {
+    "recipient": [
+      "BT-1002"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.695Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 137,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.699Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 138,
+  "fields": {
+    "recipient": [
+      "BT-1003"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.700Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 139,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.703Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 140,
+  "fields": {
+    "recipient": [
+      "BT-1004"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.703Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 141,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.706Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 142,
+  "fields": {
+    "recipient": [
+      "BT-1005"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.707Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 143,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.710Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 144,
+  "fields": {
+    "recipient": [
+      "BT-1007"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.710Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 145,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.713Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 146,
+  "fields": {
+    "recipient": [
+      "TEST-1"
+    ],
+    "sender": [
+      "BT-1006"
+    ],
+    "notification_type": "BIRTHDAY",
+    "target_post": null,
+    "target_comment": null,
+    "title": "🎂 Birthday Celebration",
+    "message": "Today is junaid's birthday! Wish them a wonderful year ahead! 🎂",
+    "is_read": false,
+    "created_at": "2026-11-11T10:00:36.713Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 147,
+  "fields": {
+    "recipient": [
+      "BT-0001"
+    ],
+    "sender": [
+      "BT-1001"
+    ],
+    "notification_type": "REACTION",
+    "target_post": 21,
+    "target_comment": null,
+    "title": "New Reaction",
+    "message": "harshith- reacted 👍 to your post.",
+    "is_read": false,
+    "created_at": "2026-11-11T10:33:09.434Z"
+  }
+},
+{
+  "model": "moderation.contentreport",
+  "pk": 1,
+  "fields": {
+    "reporter": [
+      "BT-1001"
+    ],
+    "post": 20,
+    "comment": null,
+    "reason": "OTHER",
+    "description": "testing purpose",
+    "status": "DISMISSED",
+    "reviewed_by": [
+      "BT-0001"
+    ],
+    "admin_notes": "Processed by administrator (DISMISSED)",
+    "reviewed_at": "2026-11-02T07:44:40.087Z",
+    "created_at": "2026-11-02T07:26:27.737Z"
+  }
+},
+{
+  "model": "moderation.contentreport",
+  "pk": 2,
+  "fields": {
+    "reporter": [
+      "BT-1004"
+    ],
+    "post": 21,
+    "comment": null,
+    "reason": "OTHER",
+    "description": "",
+    "status": "DISMISSED",
+    "reviewed_by": [
+      "BT-0001"
+    ],
+    "admin_notes": "Processed by administrator (DISMISSED)",
+    "reviewed_at": "2026-11-03T09:05:16.838Z",
+    "created_at": "2026-11-03T09:04:59.356Z"
+  }
+},
+{
+  "model": "moderation.contentreport",
+  "pk": 3,
+  "fields": {
+    "reporter": [
+      "BT-1004"
+    ],
+    "post": 21,
+    "comment": null,
+    "reason": "INAPPROPRIATE",
+    "description": "",
+    "status": "RESOLVED",
+    "reviewed_by": [
+      "BT-0001"
+    ],
+    "admin_notes": "Processed by administrator (RESOLVED - Archived)",
+    "reviewed_at": "2026-11-03T10:22:07.825Z",
+    "created_at": "2026-11-03T10:17:32.193Z"
+  }
+},
+{
+  "model": "moderation.contentreport",
+  "pk": 4,
+  "fields": {
+    "reporter": [
+      "BT-1005"
+    ],
+    "post": 21,
+    "comment": null,
+    "reason": "OTHER",
+    "description": "",
+    "status": "DISMISSED",
+    "reviewed_by": [
+      "BT-0001"
+    ],
+    "admin_notes": "Processed by administrator (DISMISSED)",
+    "reviewed_at": "2026-11-05T05:21:13.501Z",
+    "created_at": "2026-11-05T05:20:38.479Z"
+  }
+},
+{
+  "model": "moderation.contentreport",
+  "pk": 5,
+  "fields": {
+    "reporter": [
+      "BT-1007"
+    ],
+    "post": 18,
+    "comment": null,
+    "reason": "OTHER",
+    "description": "",
+    "status": "RESOLVED",
+    "reviewed_by": [
+      "BT-0001"
+    ],
+    "admin_notes": "Processed by administrator (RESOLVED - Archived)",
+    "reviewed_at": "2026-11-05T05:53:58.376Z",
+    "created_at": "2026-11-05T05:43:02.351Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 1,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_REPORT_DISMISSED",
+    "target_model": "ContentReport",
+    "target_id": "1",
+    "details": {
+      "status": "DISMISSED",
+      "remove_content": false
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-11-02T07:44:40.090Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 2,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_REPORT_DISMISSED",
+    "target_model": "ContentReport",
+    "target_id": "2",
+    "details": {
+      "status": "DISMISSED",
+      "remove_content": false
+    },
+    "ip_address": "192.168.0.127",
+    "created_at": "2026-11-03T09:05:16.840Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 3,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_ARCHIVE_POST",
+    "target_model": "Post",
+    "target_id": "21",
+    "details": {
+      "reason": "INAPPROPRIATE",
+      "report_id": 3
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-11-03T10:22:07.828Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 4,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_REPORT_RESOLVED",
+    "target_model": "ContentReport",
+    "target_id": "3",
+    "details": {
+      "status": "RESOLVED",
+      "remove_content": false,
+      "archive_content": true
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-11-03T10:22:07.831Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 5,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "POST_UNARCHIVE",
+    "target_model": "Post",
+    "target_id": "21",
+    "details": {
+      "content_snippet": "🚀 Milestone Update: hey guys its a meeting today !!"
+    },
+    "ip_address": "127.0.0.1",
+    "created_at": "2026-11-03T10:22:11.247Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 6,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_REPORT_DISMISSED",
+    "target_model": "ContentReport",
+    "target_id": "4",
+    "details": {
+      "status": "DISMISSED",
+      "remove_content": false,
+      "archive_content": false
+    },
+    "ip_address": "192.168.0.150",
+    "created_at": "2026-11-05T05:21:13.502Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 7,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_ARCHIVE_POST",
+    "target_model": "Post",
+    "target_id": "18",
+    "details": {
+      "reason": "OTHER",
+      "report_id": 5
+    },
+    "ip_address": "192.168.0.150",
+    "created_at": "2026-11-05T05:53:58.378Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 8,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "MODERATION_REPORT_RESOLVED",
+    "target_model": "ContentReport",
+    "target_id": "5",
+    "details": {
+      "status": "RESOLVED",
+      "remove_content": false,
+      "archive_content": true
+    },
+    "ip_address": "192.168.0.150",
+    "created_at": "2026-11-05T05:53:58.380Z"
+  }
+},
+{
+  "model": "moderation.auditlog",
+  "pk": 9,
+  "fields": {
+    "actor": [
+      "BT-0001"
+    ],
+    "action": "POST_UNARCHIVE",
+    "target_model": "Post",
+    "target_id": "18",
+    "details": {
+      "content_snippet": "[Media]"
+    },
+    "ip_address": "192.168.0.150",
+    "created_at": "2026-11-05T05:54:01.044Z"
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 1,
+  "fields": {
+    "created_at": "2026-10-30T10:59:16.805Z",
+    "updated_at": "2026-11-04T12:01:22.189Z",
+    "participants": [
+      [
+        "BT-1001"
+      ],
+      [
+        "BT-1005"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 2,
+  "fields": {
+    "created_at": "2026-10-30T10:59:16.822Z",
+    "updated_at": "2026-11-03T05:39:17.362Z",
+    "participants": [
+      [
+        "BT-1004"
+      ],
+      [
+        "BT-1005"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 3,
+  "fields": {
+    "created_at": "2026-10-30T11:14:12.798Z",
+    "updated_at": "2026-11-04T06:24:56.179Z",
+    "participants": [
+      [
+        "BT-1001"
+      ],
+      [
+        "BT-1004"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 4,
+  "fields": {
+    "created_at": "2026-10-31T10:38:10.557Z",
+    "updated_at": "2026-11-04T09:49:03.377Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1001"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 5,
+  "fields": {
+    "created_at": "2026-11-03T05:35:22.487Z",
+    "updated_at": "2026-11-05T05:49:53.381Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1004"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 6,
+  "fields": {
+    "created_at": "2026-11-03T05:39:44.207Z",
+    "updated_at": "2026-11-03T10:56:35.469Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1005"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 7,
+  "fields": {
+    "created_at": "2026-11-03T10:56:35.460Z",
+    "updated_at": "2026-11-03T10:56:35.463Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1002"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 8,
+  "fields": {
+    "created_at": "2026-11-03T10:56:35.465Z",
+    "updated_at": "2026-11-03T10:56:35.466Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1003"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 9,
+  "fields": {
+    "created_at": "2026-11-03T10:56:35.471Z",
+    "updated_at": "2026-11-03T10:56:35.472Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1006"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 10,
+  "fields": {
+    "created_at": "2026-11-03T10:56:35.474Z",
+    "updated_at": "2026-11-03T10:56:35.475Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "TEST-1"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.conversation",
+  "pk": 11,
+  "fields": {
+    "created_at": "2026-11-05T05:55:14.740Z",
+    "updated_at": "2026-11-05T05:55:40.978Z",
+    "participants": [
+      [
+        "BT-0001"
+      ],
+      [
+        "BT-1007"
+      ]
+    ]
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 1,
+  "fields": {
+    "conversation": 1,
+    "sender": [
+      "BT-1005"
+    ],
+    "content": "",
+    "shared_post": 5,
+    "created_at": "2026-10-30T10:59:16.813Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 2,
+  "fields": {
+    "conversation": 2,
+    "sender": [
+      "BT-1005"
+    ],
+    "content": "",
+    "shared_post": 5,
+    "created_at": "2026-10-30T10:59:16.828Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 3,
+  "fields": {
+    "conversation": 3,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "hai",
+    "shared_post": null,
+    "created_at": "2026-10-30T11:14:20.520Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 4,
+  "fields": {
+    "conversation": 2,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "check this out",
+    "shared_post": 6,
+    "created_at": "2026-10-30T11:15:52.440Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 5,
+  "fields": {
+    "conversation": 2,
+    "sender": [
+      "BT-1005"
+    ],
+    "content": "great",
+    "shared_post": null,
+    "created_at": "2026-10-30T11:16:37.819Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 6,
+  "fields": {
+    "conversation": 4,
+    "sender": [
+      "BT-1001"
+    ],
+    "content": "",
+    "shared_post": 3,
+    "created_at": "2026-10-31T10:38:10.560Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 7,
+  "fields": {
+    "conversation": 2,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "",
+    "shared_post": 20,
+    "created_at": "2026-11-03T05:39:17.355Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 8,
+  "fields": {
+    "conversation": 6,
+    "sender": [
+      "BT-1005"
+    ],
+    "content": "",
+    "shared_post": 16,
+    "created_at": "2026-11-03T06:14:51.465Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 9,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "hello",
+    "shared_post": null,
+    "created_at": "2026-11-03T09:03:39.320Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 10,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "hey hii",
+    "shared_post": null,
+    "created_at": "2026-11-03T09:04:09.504Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 11,
+  "fields": {
+    "conversation": 4,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.454Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 12,
+  "fields": {
+    "conversation": 7,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.462Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 13,
+  "fields": {
+    "conversation": 8,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.466Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 14,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.467Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 15,
+  "fields": {
+    "conversation": 6,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.469Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 16,
+  "fields": {
+    "conversation": 9,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.472Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 17,
+  "fields": {
+    "conversation": 10,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-03T10:56:35.475Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 18,
+  "fields": {
+    "conversation": 3,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-04T05:42:57.187Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 19,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "0000",
+    "shared_post": null,
+    "created_at": "2026-11-04T06:05:27.745Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 20,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "Hello",
+    "shared_post": null,
+    "created_at": "2026-11-04T06:17:01.726Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 21,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "Fix",
+    "shared_post": null,
+    "created_at": "2026-11-04T06:17:45.235Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 22,
+  "fields": {
+    "conversation": 3,
+    "sender": [
+      "BT-1004"
+    ],
+    "content": "Hello",
+    "shared_post": null,
+    "created_at": "2026-11-04T06:23:29.799Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 23,
+  "fields": {
+    "conversation": 3,
+    "sender": [
+      "BT-1001"
+    ],
+    "content": "hai",
+    "shared_post": null,
+    "created_at": "2026-11-04T06:24:56.171Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 24,
+  "fields": {
+    "conversation": 1,
+    "sender": [
+      "BT-1001"
+    ],
+    "content": "Hai",
+    "shared_post": null,
+    "created_at": "2026-11-04T06:39:41.505Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 25,
+  "fields": {
+    "conversation": 4,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "Happy Birthday",
+    "shared_post": null,
+    "created_at": "2026-11-04T09:49:03.368Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 26,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "Hai",
+    "shared_post": null,
+    "created_at": "2026-11-04T09:49:50.751Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 27,
+  "fields": {
+    "conversation": 1,
+    "sender": [
+      "BT-1005"
+    ],
+    "content": "",
+    "shared_post": 21,
+    "created_at": "2026-11-04T12:01:22.187Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 28,
+  "fields": {
+    "conversation": 5,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "Hello",
+    "shared_post": null,
+    "created_at": "2026-11-05T05:49:53.373Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 29,
+  "fields": {
+    "conversation": 11,
+    "sender": [
+      "BT-0001"
+    ],
+    "content": "Hello",
+    "shared_post": null,
+    "created_at": "2026-11-05T05:55:18.330Z",
+    "is_read": true
+  }
+},
+{
+  "model": "chat.message",
+  "pk": 30,
+  "fields": {
+    "conversation": 11,
+    "sender": [
+      "BT-1007"
+    ],
+    "content": "hai",
+    "shared_post": null,
+    "created_at": "2026-11-05T05:55:40.970Z",
+    "is_read": true
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "01e10bab0a355c8b0ab2ff2a82e8e7cc5f9341a0",
+  "fields": {
+    "user": [
+      "BT-1001"
+    ],
+    "created": "2026-11-11T10:33:03.391Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "4aa0c12d23987a1d86655288986492e8ada45039",
+  "fields": {
+    "user": [
+      "BT-1007"
+    ],
+    "created": "2026-11-05T05:54:59.667Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "d675ca92ba5ce138bb37317146a699641a5b0ef4",
+  "fields": {
+    "user": [
+      "BT-0001"
+    ],
+    "created": "2026-11-11T10:48:45.682Z"
+  }
+}
+]

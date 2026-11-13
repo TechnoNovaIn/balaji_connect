@@ -90,31 +90,51 @@ else:
         },
     }
 
-# Database
-# PostgreSQL is the exclusive database for local development, testing, and production.
+# Database Configuration (Supports PostgreSQL and MySQL)
+DB_ENGINE_NAME = os.getenv('DB_ENGINE', 'postgresql').lower()
+if 'mysql' in DB_ENGINE_NAME:
+    try:
+        import pymysql
+        pymysql.install_as_MySQLdb()
+    except ImportError:
+        pass
+    DEFAULT_DB_BACKEND = 'django.db.backends.mysql'
+    DEFAULT_DB_PORT = 3306
+else:
+    DEFAULT_DB_BACKEND = 'django.db.backends.postgresql'
+    DEFAULT_DB_PORT = 5432
+
 DATABASE_URL = os.getenv('DATABASE_URL')
 if DATABASE_URL:
     import urllib.parse
     parsed = urllib.parse.urlparse(DATABASE_URL)
+    is_mysql = 'mysql' in parsed.scheme.lower() or 'mysql' in DB_ENGINE_NAME
+    backend = 'django.db.backends.mysql' if is_mysql else 'django.db.backends.postgresql'
+    port = parsed.port or (3306 if is_mysql else 5432)
+    db_options = {'charset': 'utf8mb4'} if is_mysql else {}
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
+            'ENGINE': backend,
             'NAME': parsed.path.lstrip('/'),
-            'USER': parsed.username or os.getenv('DB_USER', 'postgres'),
+            'USER': parsed.username or os.getenv('DB_USER', 'root' if is_mysql else 'postgres'),
             'PASSWORD': urllib.parse.unquote(parsed.password or '') if parsed.password else os.getenv('DB_PASSWORD', ''),
             'HOST': parsed.hostname or os.getenv('DB_HOST', '127.0.0.1'),
-            'PORT': parsed.port or int(os.getenv('DB_PORT', 5432)),
+            'PORT': port,
+            'OPTIONS': db_options,
         }
     }
 else:
+    is_mysql = DEFAULT_DB_BACKEND == 'django.db.backends.mysql'
+    db_options = {'charset': 'utf8mb4'} if is_mysql else {}
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
+            'ENGINE': DEFAULT_DB_BACKEND,
             'NAME': os.getenv('DB_NAME', 'balaji_connect'),
-            'USER': os.getenv('DB_USER', 'postgres'),
+            'USER': os.getenv('DB_USER', 'root' if is_mysql else 'postgres'),
             'PASSWORD': os.getenv('DB_PASSWORD', ''),
             'HOST': os.getenv('DB_HOST', '127.0.0.1'),
-            'PORT': int(os.getenv('DB_PORT', 5432)),
+            'PORT': int(os.getenv('DB_PORT', DEFAULT_DB_PORT)),
+            'OPTIONS': db_options,
         }
     }
 

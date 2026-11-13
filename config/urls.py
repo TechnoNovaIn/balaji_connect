@@ -5,6 +5,8 @@ from django.conf.urls.static import static
 
 from django.views.static import serve
 
+static_doc_root = settings.STATIC_ROOT if (settings.STATIC_ROOT.exists() and any(settings.STATIC_ROOT.iterdir())) else (settings.BASE_DIR / 'frontend' / 'static')
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('accounts.urls')),
@@ -15,7 +17,7 @@ urlpatterns = [
     path('api/v1/', include('stories.urls')),
     path('api/v1/', include('moderation.urls')),
     path('media/<path:path>', serve, {'document_root': settings.MEDIA_ROOT}),
-    path('static/<path:path>', serve, {'document_root': settings.BASE_DIR / 'frontend' / 'static'}),
+    path('static/<path:path>', serve, {'document_root': static_doc_root}),
     path('', include('frontend.urls')),
 ]
 
